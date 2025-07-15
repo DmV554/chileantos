@@ -1,0 +1,37 @@
+You are a legal assistant responsible for generating comprehensive summaries of legal entities and concepts within Terms of Service contexts. Given one or more legal entities (such as legal concepts, organizations, jurisdictions, laws, or classification labels), and a list of descriptions, all related to the same entity or group of entities within the legal domain.
+
+Please concatenate all of these into a single, comprehensive legal description that captures:
+- The legal nature and significance of the entity
+- Its role in Terms of Service and consumer protection contexts
+- Relevant jurisdictional or regulatory implications
+- How it relates to consumer rights and legal protections
+- Any classification or compliance patterns associated with it
+
+Make sure to include information collected from all the descriptions, prioritizing legal accuracy and consumer protection implications.
+
+If the provided descriptions are contradictory, please resolve the contradictions by:
+- Prioritizing more specific legal information over general descriptions
+- Considering the consumer protection context when resolving conflicts
+- Maintaining consistency with established legal frameworks and terminology
+- Providing a single, coherent legal summary that reflects the most accurate interpretation
+
+Make sure the summary is written in third person, uses precise legal terminology, and includes the entity names so we have the full legal context. Focus on aspects that would be relevant for legal clause classification and consumer protection analysis.
+
+For classification labels (such as "Contra la LPC", "Prohibición de prorrogar competencia", etc.), ensure the summary explains:
+- What type of legal violation or restriction the label represents
+- The consumer protection implications
+- How it relates to access to justice or regulatory compliance
+
+For legal concepts, organizations, and jurisdictions, ensure the summary covers:
+- Their role in dispute resolution or legal processes
+- How they impact consumer rights and protections
+- Their relationship to regulatory frameworks
+
+Limit the final description length to {max_length} words.
+
+#######
+-Data-
+Entities: {entity_name}
+Description List: {description_list}
+#######
+Output:

@@ -1,0 +1,4927 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="DROPBOX" />
+    <node id="CONTRA RCC" />
+    <node id="DROPBOX SUS FILIALES" />
+    <node id="REGLAS DE LA AAA" />
+    <node id="HONORARIOS" />
+    <node id="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" />
+    <node id="ACADEMIA.EDU" />
+    <node id="REGLA FEDERAL DE PROCEDIMIENTO CIVIL 11(B)" />
+    <node id="PROCEDIMIENTOS SUPLEMENTARIOS PARA DISPUTAS RELACIONADAS CON EL CONSUMIDOR" />
+    <node id="REGLAS DE ARBITRAJE COMERCIAL" />
+    <node id="LEY FEDERAL DE ARBITRAJE" />
+    <node id="CONTRA LA LPC" />
+    <node id="CL&#193;USULA NO APLICABLE" />
+    <node id="ACUERDO DE ARBITRAJE VINCULANTE" />
+    <node id="RENUNCIA DE DEMANDA COLECTIVA" />
+    <node id="JUICIO POR JURADOS" />
+    <node id="MICROSOFT" />
+    <node id="AVISOS DE INFRACCI&#211;N" />
+    <node id="CUENTA DE USUARIO" />
+    <node id="T&#205;TULO 17, C&#211;DIGO DE ESTADOS UNIDOS" />
+    <node id="SECCI&#211;N 512" />
+    <node id="CAP&#205;TULO III DE LA REGULACI&#211;N (UE) 2022/2065" />
+    <node id="FITBIT INTERNATIONAL LIMITED" />
+    <node id="EUROPEAN ECONOMIC AREA" />
+    <node id="UK" />
+    <node id="SWITZERLAND" />
+    <node id="GORDON HOUSE" />
+    <node id="IRELAND" />
+    <node id="YAHOO" />
+    <node id="LEY DE SERVICIOS DIGITALES DE LA UE" />
+    <node id="CONTENIDO ILEGAL" />
+    <node id="POL&#205;TICAS Y PROCEDIMIENTOS INTERNOS DE YAHOO" />
+    <node id="REVISI&#211;N HUMANA" />
+    <node id="SECCI&#211;N 70A-2-401(2) DEL C&#211;DIGO ANOTADO DE UTAH" />
+    <node id="SECCI&#211;N 2-401(2) DEL C&#211;DIGO UNIFORME DE COMERCIO" />
+    <node id="C&#211;DIGO ANOTADO DE UTAH" />
+    <node id="C&#211;DIGO UNIFORME DE COMERCIO" />
+    <node id="NONE" />
+    <node id="TRIBUNALES IRLANDESES" />
+    <node id="SOMETERNOS A LA JURISDICCI&#211;N EXCLUSIVA DE LOS TRIBUNALES IRLANDESES" />
+    <node id="RENUNCIAR A CUALQUIER OBJECI&#211;N SOBRE EL EJERCICIO DE LA JURISDICCI&#211;N" />
+    <node id="USTED Y NOSOTROS" />
+    <node id="&#193;RBITRO" />
+    <node id="REGLAS DE NAM" />
+    <node id="CLAUSULA 15" />
+    <node id="JUZGADO DE PAZ" />
+    <node id="TERMINO INJUSTO" />
+    <node id="TERMINO MODIFICADO" />
+    <node id="NUEVA ZELANDA" />
+    <node id="LEY DE GARANT&#205;AS PARA EL CONSUMIDOR DE NUEVA ZELANDA" />
+    <node id="INDIA" />
+    <node id="CONDITIONS ADICIONALES" />
+    <node id="YAHOO INC." />
+    <node id="AOL MEDIA LLC" />
+    <node id="YAHOO FINANCE LLC" />
+    <node id="AOL MEMBER SERVICES, LLC" />
+    <node id="ESTADOS UNIDOS" />
+    <node id="ALL ENTITIES" />
+    <node id="CONDICIONES DEFINIDAS" />
+    <node id="LEGAL_CONCEPT" />
+    <node id="EDAD M&#205;NIMA" />
+    <node id="ILG" />
+    <node id="DESINTERMEDIACI&#211;N" />
+    <node id="LPC" />
+    <node id="JAP&#211;N" />
+    <node id="ATENCI&#211;N AL CLIENTE" />
+    <node id="AIRBNB" />
+    <node id="CONTENIDO DE LA PLATAFORMA" />
+    <node id="MARCAS COMERCIALES" />
+    <node id="IM&#193;GENES COMERCIALES" />
+    <node id="INVENCIONES" />
+    <node id="C&#211;DIGO FUENTE" />
+    <node id="C&#211;DIGO OBJETO" />
+    <node id="DERECHOS DE PROPIEDAD INTELECTUAL" />
+    <node id="USUARIOS" />
+    <node id="LICENCIAS" />
+    <node id="ARBITRAJE" />
+    <node id="SAN FRANCISCO" />
+    <node id="EL DISTRITO NORTE DE CALIFORNIA" />
+    <node id="CALIFORNIA" />
+    <node id="JURISDICCI&#211;N" />
+    <node id="AVISO DE EXCLUSI&#211;N VOLUNTARIA DEL ARBITRAJE" />
+    <node id="PROCEDIMIENTO" />
+    <node id="TINDER" />
+    <node id="ART&#205;CULOS VIRTUALES" />
+    <node id="CUENTA" />
+    <node id="PER&#205;ODO DE GRACIA PARA LOS CONSUMIDORES DE LA UE" />
+    <node id="SECCI&#211;N 11" />
+    <node id="EU" />
+    <node id="SECCI&#211;N 22" />
+    <node id="SECCI&#211;N 12.6" />
+    <node id="SECCI&#211;N 12" />
+    <node id="PROH&#205;BE ACCESO A JUSTICIA" />
+    <node id="ARBITRADOR" />
+    <node id="SAN DIEGO, CALIFORNIA" />
+    <node id="NUEVA YORK, NUEVA YORK" />
+    <node id="REGULACIONES" />
+    <node id="TINDER LEGAL" />
+    <node id="DALLAS, TEXAS" />
+    <node id="ILLINOIS" />
+    <node id="NUEVA YORK" />
+    <node id="CAROLINA DEL NORTE" />
+    <node id="OHIO" />
+    <node id="SERVICIOS" />
+    <node id="REEMBOLSO" />
+    <node id="PROVEEDORES" />
+    <node id="DATOS PERSONALES" />
+    <node id="CHILE" />
+    <node id="ILG CC RC" />
+    <node id="NO CONFIDENCIAL" />
+    <node id="ROVIO" />
+    <node id="DAN&#771;OS ESPECIALES" />
+    <node id="DAN&#771;OS POR LESIONES PERSONALES" />
+    <node id="DAN&#771;OS A LA PROPIEDAD" />
+    <node id="P&#201;RDIDA DE FONDO DE COMERCIO" />
+    <node id="FALLOS O MAL FUNCIONAMIENTO" />
+    <node id="LESIONES PERSONALES" />
+    <node id="DA&#209;OS PUNITIVOS" />
+    <node id="LEY" />
+    <node id="HEADSPACE" />
+    <node id="NOTIFICACI&#211;N" />
+    <node id="EXCLUSI&#211;N" />
+    <node id="LIMITACI&#211;N DE DEMANDAS" />
+    <node id="RIPLEY" />
+    <node id="POL&#205;TICA DE CAMBIO Y DEVOLUCI&#211;N DE RIPLEY.COM" />
+    <node id="CENTRO DE SERVICIO" />
+    <node id="N&#218;MERO DE TEL&#201;FONO 600 230 02 22" />
+    <node id="CONSIDERACIONES IMPORTANTES" />
+    <node id="NA" />
+    <node id="PLATAFORMA FEDERAL DE RESOLUCI&#211;N DE LITIGIOS DEL CONSUMIDOR DE BRASIL" />
+    <node id="BRASIL" />
+    <node id="RECLAMACI&#211;N" />
+    <node id="CONSUMIDOR.GOV.BR" />
+    <node id="LEY APLICABLE" />
+    <node id="PRINCIPIOS DE EQUIDAD" />
+    <node id="SENTENCIAS" />
+    <node id="LAUDO ARBITRAL" />
+    <node id="EBAY" />
+    <node id="EL ARBITRO" />
+    <node id="TRIBUNAL" />
+    <node id="LEGISLACI&#211;N DEL ESTADO DE CALIFORNIA" />
+    <node id="AUTORIDADES COMPETENTES" />
+    <node id="RESPONSABILIDAD" />
+    <node id="CONDITIONES DE USO" />
+    <node id="TINDER, LLC" />
+    <node id="DALLAS" />
+    <node id="SECCI&#211;N 14.2" />
+    <node id="NEW YORK" />
+    <node id="CONDITIONS" />
+    <node id="JUICIO" />
+    <node id="AAA" />
+    <node id="REGLAS DE ARBITRAJE" />
+    <node id="CONDICIONES" />
+    <node id="MEDIADOR" />
+    <node id="LEY DE ARBITRAJE DE EE. UU." />
+    <node id="ARBITRO" />
+    <node id="PRIVILEGIO" />
+    <node id="LABEL" />
+    <node id="PLATAFORMA AIRBNB" />
+    <node id="T&#201;RMINOS" />
+    <node id="CONTRATO" />
+    <node id="SECCI&#211;N 22.11" />
+    <node id="ACUERDOS ANTERIORES" />
+    <node id="DERECHOS" />
+    <node id="RECURSO" />
+    <node id="REFERENCIA" />
+    <node id="FUTURO" />
+    <node id="ILG LPC PRO" />
+    <node id="ACUERDO" />
+    <node id="YAHOO CANADA CORP" />
+    <node id="CANADA" />
+    <node id="YAHOO FINANCE ULC" />
+    <node id="LEGAL AGE" />
+    <node id="AOL MAIL" />
+    <node id="AOL MEMBER SERVICES LLC" />
+    <node id="LINKEDIN" />
+    <node id="AFILIADOS" />
+    <node id="GASTOS TOTALES ABONADOS O PENDIENTES" />
+    <node id="PLAZO" />
+    <node id="YOUTUBE" />
+    <node id="RECLAMO" />
+    <node id="IMPORTE" />
+    <node id="TRIPADVISOR" />
+    <node id="INFORMACI&#211;N" />
+    <node id="ERRORES" />
+    <node id="ILG LPC DEFAULT" />
+    <node id="PROVEEDOR DE VIAJES" />
+    <node id="T&#218;" />
+    <node id="FILIAL" />
+    <node id="DATOS DE TARJETA" />
+    <node id="GASTO DE GESTI&#211;N" />
+    <node id="815 ILCS 414/1.5(C)" />
+    <node id="CONFORMIDAD" />
+    <node id="SECTION 22" />
+    <node id="ARBITRATION" />
+    <node id="CYBER" />
+    <node id="OTROS EVENTOS DE PROMOCI&#211;N" />
+    <node id="LEGISLACI&#211;N OBLIGATORIA" />
+    <node id="LEY DEL [ESTADO O PA&#205;S CORRESPONDIENTE SEG&#218;N SE DESCRIBE EN LA CL&#193;USULA 6.1" />
+    <node id="CL&#193;USULA 6.1" />
+    <node id="CANVA PTY LTD" />
+    <node id="REINO UNIDO" />
+    <node id="110 KIPPAX ST, SURRY HILLS, NSW 2010, AUSTRALIA" />
+    <node id="LEGAL" />
+    <node id="LAS PARTES" />
+    <node id="DISPOSICI&#211;N OBLIGATORIA" />
+    <node id="CONDADO DE SANTA CLARA" />
+    <node id="ACUERDO DE ARBITRAJE" />
+    <node id="DISPUTAS" />
+    <node id="AIRBNB PAGOS" />
+    <node id="CL&#193;USULA 22" />
+    <node id="FITBIT LLC" />
+    <node id="LEGAL DEPARTMENT" />
+    <node id="MOUNTAIN VIEW, CALIFORNIA" />
+    <node id="U.S.A." />
+    <node id="FAR 52.227-19" />
+    <node id="REGULACI&#211;N DE ADQUISICIONES FEDERALES" />
+    <node id="SOFTWARE INFORM&#193;TICO COMERCIAL" />
+    <node id="SANTA CLARA" />
+    <node id="JURISDICTION" />
+    <node id="EE. UU." />
+    <node id="MEDIDAS CAUTELARES" />
+    <node id="BOX" />
+    <node id="REQUERIMIENTO" />
+    <node id="CONFLICT" />
+    <node id="NAM" />
+    <node id="PER&#205;ODO DE RESOLUCI&#211;N INFORMAL" />
+    <node id="USTED O NOSOTROS" />
+    <node id="S&#195;O PAULO" />
+    <node id="CLAUSULA NO APLICABLE" />
+    <node id="TRIBUNALES ESTATALES Y FEDERALES DE S&#195;O PAULO" />
+    <node id="EXCLUSIVO" />
+    <node id="DIVISIBILIDAD" />
+    <node id="DISTRIBUCI&#211;N" />
+    <node id="NORMAS DE LA AAA" />
+    <node id="CONDADO" />
+    <node id="JUICIO POR JURADO" />
+    <node id="LITIGIO" />
+    <node id="COSTOS DEL ARBITRAJE" />
+    <node id="DERECHO DE DESCUBRIMIENTO" />
+    <node id="SECCI&#211;N 14.2.C" />
+    <node id="RENUNCIA DE LA DEMANDA COLECTIVA" />
+    <node id="LAWS OF CALIFORNIA" />
+    <node id="UNI&#211;N EUROPEA" />
+    <node id="CONSUMIDOR" />
+    <node id="PLAZO DE CANCELACI&#211;N" />
+    <node id="FORMULARIO" />
+    <node id="NIANTIC" />
+    <node id="NIANTIC INTERNATIONAL LIMITED" />
+    <node id="LEGISLACI&#211;N APLICABLE" />
+    <node id="RESPONSABILIDAD TOTAL" />
+    <node id="D&#211;LARES ESTADOUNIDENSES" />
+    <node id="LIBRAS ESTERLINAS" />
+    <node id="PARTES" />
+    <node id="DANOS Y PERJUICIOS" />
+    <node id="NEGLIGENCIA LEVE" />
+    <node id="BIENES" />
+    <node id="LEY DE SERVICIOS DIGITALES" />
+    <node id="LEGISLACI&#211;N LOCAL" />
+    <node id="INFORMACI&#211;N DE CAR&#193;CTER PERSONAL" />
+    <node id="CORTANA" />
+    <node id="APLICACIONES Y SERVICIOS DE TERCEROS" />
+    <node id="SECCI&#211;N 5" />
+    <node id="ORGANIZATION" />
+    <node id="FITBIT" />
+    <node id="EXCEPCIONES AL ACUERDO DE ARBITRAJE" />
+    <node id="JAP&#193;N" />
+    <node id="ELECCI&#211;N DE LEGISLACI&#211;N" />
+    <node id="RELACI&#211;N" />
+    <node id="DISPOSICIONES DE ARBITRAJE OBLIGATORIO" />
+    <node id="EXCEPCIONES AL ACUERDO DE ARBITRAR" />
+    <node id="TERMINOS" />
+    <node id="26.3" />
+    <node id="NO RENUNCIA" />
+    <node id="CL&#193;USULA 5" />
+    <node id="POL&#205;TICA DE PRIVACIDAD" />
+    <node id="AVISO SOBRE ARBITRAJE" />
+    <node id="PROHIBICI&#211;N DE ACCESO A JUSTICIA" />
+    <node id="CL&#193;USULA ARBITRAL" />
+    <node id="DUBL&#205;N" />
+    <node id="TERRITORIOS LOCALES" />
+    <node id="LEY FEDERAL DE ARBITRAJE DE ESTADOS UNIDOS" />
+    <node id="RENUNCIA A ACCIONES COLECTIVAS" />
+    <node id="PLATAFORMA EUROPEA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA" />
+    <node id="PLATAFORMA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA DE LA COMISI&#211;N EUROPEA" />
+    <node id="EDREAMS" />
+    <node id="ACTS AS" />
+    <node id="PROVEEDOR" />
+    <node id="ACQUIRES" />
+    <node id="SECCI&#211;N 14.9" />
+    <node id="DISPUTAS RELACIONADAS CON ESTOS T&#201;RMINOS O SU USO DE LOS PRODUCTOS Y SERVICIOS" />
+    <node id="PLAZO DE RECLAMO" />
+    <node id="LEYES LOCALES" />
+    <node id="SECCI&#211;N 10.D" />
+    <node id="AVISO ESPECIAL PARA LOS USUARIOS DE CALIFORNIA" />
+    <node id="SECCI&#211;N 6.1" />
+    <node id="SECCI&#211;N 6.2" />
+    <node id="ACCIONES COLECTIVAS" />
+    <node id="SECCI&#211;N 6.3" />
+    <node id="RECLAMACIONES FR&#205;VOLAS O IMPROCEDENTES" />
+    <node id="PARTES DEMANDADAS" />
+    <node id="FEEDBACK@ACADEMIA.EDU" />
+    <node id="RESOLUCI&#211;N DE DISPUTAS" />
+    <node id="SECCI&#211;N &quot;RESOLUCI&#211;N DE DISPUTAS&quot;" />
+    <node id="EUROPA" />
+    <node id="MEDIO ORIENTE" />
+    <node id="&#193;FRICA" />
+    <node id="ENLACES" />
+    <node id="P&#193;RRAFO O" />
+    <node id="TRIBUNAL DE ASUNTOS MENORES" />
+    <node id="DISPUTA(S)" />
+    <node id="JURADO" />
+    <node id="DEMANDAS COLECTIVAS O REPRESETATIVAS" />
+    <node id="BADOO" />
+    <node id="COMISI&#211;N EUROPEA" />
+    <node id="GRUPO BADOO" />
+    <node id="ANTECEDENTES PENALES" />
+    <node id="REGISTRO DE DELINCUENTES SEXUALES" />
+    <node id="MICROSOFT CORPORATION" />
+    <node id="JURISDICCI&#211;N EXCLUSIVA DE IRLANDA" />
+    <node id="MICROSOFT IRELAND OPERATIONS LIMITED" />
+    <node id="LEGISLACI&#211;N DE IRLANDA" />
+    <node id="ATT" />
+    <node id="ATOL" />
+    <node id="SISTEMA ATOL" />
+    <node id="INSOLVENCIA" />
+    <node id="APPLE" />
+    <node id="SERVICE EXTERNO" />
+    <node id="CLAUSULA 8A" />
+    <node id="GOOGLE PLAY" />
+    <node id="YAHOO! DIGITAL MARKETING CO., LTD." />
+    <node id="TAIWAN" />
+    <node id="REPUBLIC OF CHINA" />
+    <node id="LAWS OF THE REPUBLIC OF CHINA" />
+    <node id="REPUBLICA CHECA" />
+    <node id="AUTORIDAD DE INSPECCI&#211;N COMERCIAL CHECA" />
+    <node id="ADR DEPARTAMENTO" />
+    <node id="CENTRAL INSPECTORATE" />
+    <node id="&#352;T&#282;P&#193;NSK&#193; 15" />
+    <node id="PRAGA 2" />
+    <node id="ADR@COI.CZ" />
+    <node id="HTTPS://WWW.COI.CZ/INFORMACE-O-ADR/" />
+    <node id="YAHOO AUSTRALIA PTY LTD" />
+    <node id="NEW SOUTH WALES" />
+    <node id="LAWS OF NEW SOUTH WALES" />
+    <node id="USA" />
+    <node id="YAHOO INC" />
+    <node id="LAWS OF THE UNITED STATES" />
+    <node id="AIRBNB.ORG" />
+    <node id="SECCI&#211;N 501(C)(3)" />
+    <node id="C&#211;DIGO DE RENTAS INTERNAS" />
+    <node id="WHATSAPP" />
+    <node id="DISPUTA" />
+    <node id="CANAD&#193;" />
+    <node id="TRIBUNAL DE RECLAMACIONES MENORES" />
+    <node id="SNAP" />
+    <node id="TERCEROS" />
+    <node id="REGLAMENTOS" />
+    <node id="RECLAMACIONES COORDINADAS" />
+    <node id="PROVEEDOR DEL SERVICIO DE ARBITRAJE" />
+    <node id="NIANTIC LABS" />
+    <node id="RESOLUCI&#211;N DE CONTROVERSIAS" />
+    <node id="ARIZONA" />
+    <node id="COLORADO" />
+    <node id="CONNECTICUT" />
+    <node id="IOWA" />
+    <node id="MINNESOTA" />
+    <node id="RHODE ISLAND" />
+    <node id="WISCONSIN" />
+    <node id="DERECHO DE DESISTIMIENTO" />
+    <node id="PLATAFORMA" />
+    <node id="BILLETES ELECTR&#211;NICOS" />
+    <node id="IVA" />
+    <node id="FACTURA DEL IVA" />
+    <node id="META" />
+    <node id="TRIBUNAL DE DISTRITO DE LOS ESTADOS UNIDOS PARA EL DISTRITO NORTE DE CALIFORNIA" />
+    <node id="TRIBUNAL ESTATAL EN EL CONDADO DE SAN MATEO" />
+    <node id="LEY DE CALIFORNIA" />
+    <node id="STARBUCKS COFFEE CHILE S.A." />
+    <node id="CONTENIDO DE TERCERAS PARTES" />
+    <node id="USTED" />
+    <node id="TERMINOS Y CONDICIONES" />
+    <node id="ESTADOSUNIDOS" />
+    <node id="AVISO DE DISPUTA" />
+    <node id="LEGISLACI&#211;N DE INGLATERRA Y GALES" />
+    <node id="&#211;RGANOS JUDICIALES" />
+    <node id="LEY DE TU PA&#205;S DE RESIDENCIA" />
+    <node id="EBAY INC." />
+    <node id="LITIGATION DEPARTMENT" />
+    <node id="AVISO" />
+    <node id="RECLAMOS" />
+    <node id="DIRECCI&#211;N F&#205;SICA" />
+    <node id="STARBUCKS" />
+    <node id="FALTA DE JURISDICCI&#211;N" />
+    <node id="FALTA DE COMPETENCIA EN RAZ&#211;N DE LA PERSONA" />
+    <node id="CHINA" />
+    <node id="COMISI&#211;N INTERNACIONAL CHINA DE ARBITRAJE COMERCIAL Y ECON&#211;MICO" />
+    <node id="NORMAS DE ARBITRAJE DE LA CIETAC" />
+    <node id="PEK&#205;N" />
+    <node id="SEDE DEL ARBITRAJE" />
+    <node id="SECCI&#211;N 23.1" />
+    <node id="LEGISLACI&#211;N DE CHINA" />
+    <node id="JAMS" />
+    <node id="REGLAS Y PROCEDIMIENTOS DE ARBITRAJE SIMPLIFICADO DE JAM" />
+    <node id="EST&#193;NDARES M&#205;NIMOS DEL CONSUMIDOR" />
+    <node id="RECLAMO DE PRIVACIDAD" />
+    <node id="RENUNCIA" />
+    <node id="VII" />
+    <node id="SECCI&#211;N 1" />
+    <node id="SECCI&#211;N 18.C" />
+    <node id="PROHIBICI&#211;N DE ACCIONES GRUPALES Y REPARACIONES NO INDIVIDUALIZADAS" />
+    <node id="JUS" />
+    <node id="DISPOSICI&#211;N DE ARBITRAJE" />
+    <node id="REGLAMENTO DE LA AAA" />
+    <node id="PROCEDIMIENTOS SUPLEMENTARIOS PARA CONTROVERSIAS RELATIVAS AL CONSUMIDOR" />
+    <node id="INTERPRETACI&#211;N" />
+    <node id="MODIFICACI&#211;N DE LOS SERVICIOS" />
+    <node id="SKYSCANNER" />
+    <node id="PROVEEDORES DE VIAJES INDEPENDIENTES" />
+    <node id="LEY DEL LUGAR DE INCORPORACI&#211;N DE YAHOO" />
+    <node id="ENTIDAD DE YAHOO" />
+    <node id="GOOGLE" />
+    <node id="GOOGLE MAPS" />
+    <node id="TERMINOS DE SERVICIO DE GOOGLE MAPS/GOOGLE EARTH" />
+    <node id="CONDICIONES ESPEC&#205;FICAS PARA RESIDENTES DE ALEMANIA" />
+    <node id="LEGISLACI&#211;N DE TAIW&#193;N" />
+    <node id="MICROSOFT TAIWAN CORP." />
+    <node id="TRIBUNAL DE DISTRITO DE TAIP&#201;I" />
+    <node id="CONTRACT" />
+    <node id="ACEPTA" />
+    <node id="RECONOCE" />
+    <node id="APLICA" />
+    <node id="EMPRESA" />
+    <node id="VINCULA" />
+    <node id="EDREAMS LLC" />
+    <node id="VENDEDOR DE VIAJES" />
+    <node id="PROSUR GROUP" />
+    <node id="CONTRATO DE SERVICIOS" />
+    <node id="TRIBUNAL DE DISTRITO DE LOS EE. UU. PARA EL DISTRITO SUR DE NUEVO YORK" />
+    <node id="FEDERAL ARBITRATION ACT" />
+    <node id="REGLA FEDERAL DE ARBITRAJE" />
+    <node id="REGLAS DE ADR" />
+    <node id="ADR SERVICES, INC." />
+    <node id="DISCRECI&#211;N" />
+    <node id="HONORARIOS DE ARBITRAJE" />
+    <node id="COSTES PROCESALES" />
+    <node id="V&#205;NCULOS" />
+    <node id="SITIO DE MICROSOFT" />
+    <node id="CONTENIDO" />
+    <node id="V&#205;NCULO" />
+    <node id="DICHOS SITIOS" />
+    <node id="COLECTIVA" />
+    <node id="AVISOS" />
+    <node id="LEY JAPONESA RELATIVA A ALOJAMIENTO EN CASAS" />
+    <node id="NOTIFICACI&#211;N EN JAP&#211;N" />
+    <node id="CANVA" />
+    <node id="RENUNCIA AL JUICIO CON JURADO" />
+    <node id="DEMANDAS COLECTIVAS" />
+    <node id="RECLAMACIONES" />
+    <node id="CONFLICTO" />
+    <node id="JUZGADO" />
+    <node id="NORTE DE CALIFORNIA" />
+    <node id="AVISO DE PRIVACIDAD" />
+    <node id="USTED COMPRENDE Y ACEPTA" />
+    <node id="ESTADO DE NUEVA YORK" />
+    <node id="LEYES DEL ESTADO DE NUEVA YORK" />
+    <node id="DISPOSICIONES DE LIMITACI&#211;N DE RESPONSABILIDAD" />
+    <node id="CL&#193;USULA 14" />
+    <node id="FINLANDIA" />
+    <node id="ESPOO" />
+    <node id="PLATAFORMA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA" />
+    <node id="EUROPEAN COMMISSION" />
+    <node id="INFRINGE" />
+    <node id="SANCIONES" />
+    <node id="SECCI&#211;N 4" />
+    <node id="YAHOO DO BRASIL INTERNET LTDA." />
+    <node id="AV. PRESIDENTE JUSCELINO KUBITSCHEK" />
+    <node id="SERVICIO" />
+    <node id="AMAZON" />
+    <node id="ESTADO DE WASHINGTON" />
+    <node id="LEY FEDERAL" />
+    <node id="RAPPI" />
+    <node id="USUARIO" />
+    <node id="RAPPIREPARTIDOR" />
+    <node id="REPUBLICA DE INDONESIA" />
+    <node id="CONDICIONES ESPEC&#205;FICAS PARA RESIDENTES" />
+    <node id="LEY FEDERAL DE ESTADOS UNIDOS" />
+    <node id="ENTIDAD GUBERNAMENTAL FEDERAL" />
+    <node id="LEY DEL ESTADO DE CALIFORNIA" />
+    <node id="ENTIDAD GUBERNAMENTAL ESTATAL" />
+    <node id="USUARIOS DE LOS EE. UU." />
+    <node id="NO SE ADMITEN DEMANDAS COLECTIVAS" />
+    <node id="DETERMINACI&#211;N JUDICIAL" />
+    <node id="NORMAS DE ARBITRAJE DEL CONSUMIDOR DE LA AAA" />
+    <node id="WWW.ADR.ORG" />
+    <node id="1-800-778-7879" />
+    <node id="REGLAS DEL FORO ARBITRAL" />
+    <node id="MODIFICACIONES DE LAS REGLAS DE ARBITRAJE" />
+    <node id="PROVEEDOR DE ARBITRAJE" />
+    <node id="OFERTA DE SENTENCIA" />
+    <node id="LAUDO" />
+    <node id="AUDIENCIA DE ARBITRAJE" />
+    <node id="REGLAS DE SOLICITUDES EN MASA DE NAM" />
+    <node id="CL&#193;USULA DE RESOLUCI&#211;N DE CONFLICTOS" />
+    <node id="RESERVA" />
+    <node id="NEW JERSEY" />
+    <node id="SECCI&#211;N 9" />
+    <node id="LIMITACIONES SOBRE LA RESPONSABILIDAD" />
+    <node id="AGRAVIOS INTENCIONALES" />
+    <node id="ACTOS VOLUNTARIOS" />
+    <node id="NEGLIGENCIA GRAVE" />
+    <node id="INFRACCI&#211;N DE UN DEBER IMPUESTO POR LA LEY" />
+    <node id="LEGISLACI&#211;N DE CALIFORNIA" />
+    <node id="TRIBUNALES ESTATALES" />
+    <node id="MODIFICACI&#211;N A LAS REGLAS DE ARBITRAJE" />
+    <node id="WWW.ADRSERVICES.COM" />
+    <node id="300% DE LAS PAUTAS FEDERALES DE POBREZA" />
+    <node id="RENUNCIA A HONORARIOS Y COSTOS" />
+    <node id="DECLARACI&#211;N BAJO JURAMENTO" />
+    <node id="DOCUMENTOS NECESARIOS" />
+    <node id="LEGISLACI&#211;N DEL ESTADO DE ISRAEL" />
+    <node id="TRIBUNALES DE TEL AVIV" />
+    <node id="REGLAS DE ARBITRAJE DE CONSUMO" />
+    <node id="C&#211;DIGO CIVIL DE CALIFORNIA" />
+    <node id="UNIDAD DE ASISTENCIA DE CUMPLIMIENTO LEGAL" />
+    <node id="DIVISI&#211;N DE SERVICIOS DEL CONSUMIDOR" />
+    <node id="DEPARTAMENTO DE ASUNTOS DEL CONSUMIDOR" />
+    <node id="400 R STREET, SACRAMENTO, CA 95814" />
+    <node id="(800) 952-5210" />
+    <node id="YAHOO INDIA" />
+    <node id="GRIEVANCE OFFICER" />
+    <node id="OBLIGACI&#211;N MATERIAL" />
+    <node id="DA&#209;OS" />
+    <node id="ILG LPC INT" />
+    <node id="ACUERDO DE VIAJE VINCULADO" />
+    <node id="REGLAMENTO DE VIAJES COMBINADOS DE LA UE" />
+    <node id="PROTECCIONES AL CONSUMIDOR" />
+    <node id="ARBITRAJE COLECTIVO" />
+    <node id="ACUSACI&#211;N POPULAR" />
+    <node id="PROCEDIMIENTO REPRESENTATIVO" />
+    <node id="ACTIONS DE CLASE" />
+    <node id="RETRACTO" />
+    <node id="VENTA DE MOTOS" />
+    <node id="&#211;PTICA" />
+    <node id="OPERADOR DE TELEFON&#205;A M&#211;VIL" />
+    <node id="SECCI&#211;N 512(C)" />
+    <node id="INFRACCI&#211;N" />
+    <node id="NOTIFICACI&#211;N DE RECLAMOS" />
+    <node id="C&#211;DIGO DE LOS ESTADOS UNIDOS" />
+    <node id="TRIBUNAL DE INSTANCIA" />
+    <node id="YAHOO MEDIA" />
+    <node id="ESPACIO ECON&#211;MICO EUROPEO" />
+    <node id="UTILIZAS NUESTROS SERVICIOS BAJO TU PROPIO RIESGO" />
+    <node id="ART&#205;CULO &#167;1542 DEL C&#211;DIGO CIVIL DE CALIFORNIA" />
+    <node id="LEYES DEL ESTADO DE CALIFORNIA" />
+    <node id="LEYAS FEDERALES" />
+    <node id="EMPRESAS VINCULADAS" />
+    <node id="DAN&#771;OS Y PERJUICIOS" />
+    <node id="HASTA DONDE PERMITA LA LEGISLACIO&#769;N APLICABLE" />
+    <node id="ESTADOS UNIDOS DE AM&#201;RICA" />
+    <node id="SAL SALT LAKE CITY" />
+    <node id="UTAH" />
+    <node id="RESOLUCI&#211;N DE CONFLICTOS" />
+    <node id="META PLATFORMS, INC." />
+    <node id="DISPUTE" />
+    <node id="SIXTY (60) DAYS" />
+    <node id="NOTICE OF DISPUTE" />
+    <node id="ARBITRATION FILING" />
+    <node id="1601 WILLOW RD. MENLO PARK CA 94025" />
+    <node id="PROVISIONES OBLIGATORIAS DE ARBITRAJE" />
+    <node id="SUECIA" />
+    <node id="TRIBUNALES DE SUECIA" />
+    <node id="TODOS LOS DEM&#193;S PA&#205;SES Y REGIONES" />
+    <node id="SPOTIFY" />
+    <node id="CARGOS DE EXPEDIENTE" />
+    <node id="CARGOS ADMINISTRATIVOS" />
+    <node id="HONORARIOS DEL &#193;RBITRO" />
+    <node id="FDA" />
+    <node id="PRUEBA DE ADN DE SALUD DE MYHERITAGE" />
+    <node id="AGENCIA DE ALIMENTOS Y MEDICAMENTOS" />
+    <node id="ILG LPC" />
+    <node id="TERMINOS DE SERVICIO" />
+    <node id="ACTUALIZACIONES" />
+    <node id="VIMEO" />
+    <node id="SUPREMA CORTE DEL ESTADO DE NUEVA YORK" />
+    <node id="CORTE FEDERAL DE ESTADOS UNIDOS" />
+    <node id="ELECCI&#211;N DE LA SEDE DEL LITIGIO" />
+    <node id="CONDADO DE SAN DIEGO" />
+    <node id="PROCESO ALTERNATIVO DE RESOLUCI&#211;N DE DISPUTAS" />
+    <node id="ADMINISTRADOR DEL ARBITRAJE" />
+    <node id="MODIFICACI&#211;N DE LAS PRESENTES CONDICIONES" />
+    <node id="KING" />
+    <node id="TENPO" />
+    <node id="PAYPAL" />
+    <node id="CUENTA PAYPAL" />
+    <node id="APP TENPO" />
+    <node id="AUSTRALIA" />
+    <node id="LEGAL_CONTEXT" />
+    <node id="CONSUMIDORES" />
+    <node id="C&#211;DIGO DE PROTECCI&#211;N DEL CONSUMIDOR DE TELECOMUNICACIONES" />
+    <node id="DEFENSOR" />
+    <node id="REPRESENTANTE AUTORIZADO" />
+    <node id="LEY DE LOS ESTADOS UNIDOS DE AM&#201;RICA" />
+    <node id="ESTADO DE CALIFORNIA" />
+    <node id="PROCEDIMIENTOS JUDICIALES" />
+    <node id="ACCESO A JUSTICIA" />
+    <node id="T&#201;RMINOS DE SERVICIO" />
+    <node id="POL&#205;TICAS" />
+    <node id="INFRACCI&#211;N A LA PROPIEDAD INTELECTUAL" />
+    <node id="DERECHOS DE MARCA REGISTRADA" />
+    <node id="PEPE" />
+    <node id="JUEGO" />
+    <node id="CONFLICTOS EXCLUIDOS" />
+    <node id="CONFIDENCIALIDAD" />
+    <node id="MEDIACI&#211;N" />
+    <node id="DOCUMENTOS" />
+    <node id="CORRESPONDENCIA" />
+    <node id="PEDIDOS" />
+    <node id="LAUDOS" />
+    <node id="VIMEO.COM, INC." />
+    <node id="ROVIO ENTERTAINMENT CORPORATION" />
+    <node id="RENUNCIA AL ARBITRAJE" />
+    <node id="DIRECCI&#211;N" />
+    <node id="APLICACI&#211;N" />
+    <node id="USD 1,00" />
+    <node id="RECLAMOS POR INCUMPLIMIENTO" />
+    <node id="RESPONSABILIDAD OBJETIVA" />
+    <node id="WHATSAPP LLC" />
+    <node id="MENLO PARK" />
+    <node id="PROCEDIMIENTO DE EXCLUSI&#211;N" />
+    <node id="ACTIVIDAD ILEGAL" />
+    <node id="LEY DE PORTABILIDAD Y RESPONSABILIDAD DEL SEGURO M&#201;DICO" />
+    <node id="LEY GRAMM-LEACH-BLILEY" />
+    <node id="SECCI&#211;N 5.2" />
+    <node id="CONTENIDO PROHIBIDO" />
+    <node id="REPRODUCTOR DE VIDEOS" />
+    <node id="REGLAMENTO 261/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" />
+    <node id="REPARACI&#211;N" />
+    <node id="SNAP INC." />
+    <node id="DA&#209;OS INDIRECTOS" />
+    <node id="DA&#209;OS INCIDENTALES" />
+    <node id="DA&#209;OS ESPECIALES" />
+    <node id="DA&#209;OS CONSECUENTES" />
+    <node id="DA&#209;OS M&#218;LTIPLES" />
+    <node id="P&#201;RDIDA DE BENEFICIOS" />
+    <node id="P&#201;RDIDA DE INGRESOS" />
+    <node id="P&#201;RDIDA DE DATOS" />
+    <node id="USO" />
+    <node id="ACCESO" />
+    <node id="CONDUCT" />
+    <node id="FAA" />
+    <node id="LEGISLACI&#211;N" />
+    <node id="P&#201;RDIDAS INDIRECTAS" />
+    <node id="EBAY.IN" />
+    <node id="CONDITIONS DE USO DE EBAY.IN" />
+    <node id="SI RESIDES EN" />
+    <node id="COMISI&#211;N FEDERAL DE COMUNICACIONES" />
+    <node id="SUBT&#205;TULOS" />
+    <node id="REGLAS Y REGLAMENTACIONES DE LA COMISI&#211;N FEDERAL DE COMUNICACIONES" />
+    <node id="HTTPS://WWW.YAHOOINC.COM/ACCESSIBILITY/CAPTIONING/" />
+    <node id="ACUERDO POR ESCRITO" />
+    <node id="REGLAS DE ARBITRAJE PARA CONSUMIDORES" />
+    <node id="REGLAS DE ARBITRAJE COMERCIAL DE LA AAA" />
+    <node id="REGLAS PARA SOLUCI&#211;N DE CONTROVERSIAS DEL CENTRO INTERNACIONAL DE LA AAA" />
+    <node id="WWW.ICDR.ORG" />
+    <node id="MODIFICACIONES" />
+    <node id="QUEBEC" />
+    <node id="NO APLICABLE" />
+    <node id="ONTARIO" />
+    <node id="TRIBUNALES" />
+    <node id="APELACIONES" />
+    <node id="CONDICIONES ESPECIALES PARA RESIDENTES DE DETERMINADAS UBICACIONES" />
+    <node id="REPUBLICA DE COREA" />
+    <node id="CONDICIONES ESPEC&#205;FICAS PARA LOS RESIDENTES DE LA REP&#218;BLICA DE COREA" />
+    <node id="LEY DE OREG&#211;N" />
+    <node id="CONVENCI&#211;N DE 1980 DE LA ONU" />
+    <node id="JUNTA EUROPEA DE SERVICIOS DIGITALES" />
+    <node id="ESTADO MIEMBRO DE LA UNI&#211;N EUROPEA" />
+    <node id="DIRECCI&#211;N DE CORREO ELECTR&#211;NICO" />
+    <node id="NOTIFICACI&#211;N DE DISPUTA" />
+    <node id="HONORARIOS POR EL ARBITRAJE" />
+    <node id="REGLAS DEL PROVEEDOR" />
+    <node id="ADJUDICACI&#211;N" />
+    <node id="PROTEGER LOS DATOS" />
+    <node id="SEGURIDAD" />
+    <node id="EDEARMS" />
+    <node id="CONTRATO DE TRANSPORTE" />
+    <node id="AEROL&#205;NEA" />
+    <node id="SERVICIOS AUXILIARES" />
+    <node id="TARIFA A&#201;REA" />
+    <node id="VUELO" />
+    <node id="DIFERENTES NORMAS" />
+    <node id="TRIBUNALES FEDERALES" />
+    <node id="WILD CYBER" />
+    <node id="WHATSAPP IRELAND LIMITED" />
+    <node id="REGI&#211;N EUROPEA" />
+    <node id="MICROSOFT REGIONAL SALES PTE LTD." />
+    <node id="MICROSOFT PTY LTD" />
+    <node id="MICROSOFT NEW ZEALAND LIMITED" />
+    <node id="SINGAPORE INTERNATIONAL ARBITRATION CENTRE" />
+    <node id="REGLAS DE ARBITRAJE DEL CENTRO INTERNACIONAL DE ARBITRAJE DE SINGAPUR" />
+    <node id="WALE" />
+    <node id="SINGAPUR" />
+    <node id="SITIOS Y APLICACIONES DE TERCEROS" />
+    <node id="EMPRESAS DE TRIPADVISOR" />
+    <node id="GASTOS DE ARBITRAJE" />
+    <node id="HONORARIOS DE SUS ABOGADOS" />
+    <node id="INDONESIA" />
+    <node id="MALASIA" />
+    <node id="FILIPINAS" />
+    <node id="TAILANDIA" />
+    <node id="VIETNAM" />
+    <node id="LAWS" />
+    <node id="PWNHEALTH" />
+    <node id="MYHERITAGE" />
+    <node id="INFORMES DE SALUD" />
+    <node id="INFORMES DE ADN DE SALUD" />
+    <node id="PRECIOS" />
+    <node id="CUESTIONARIO DE SALUD" />
+    <node id="CL&#193;USULA 15" />
+    <node id="PROCEDIMIENTO JUDICIAL" />
+    <node id="CL&#193;USULA 17" />
+    <node id="ADR.ORG" />
+    <node id="PRUEBA DE ARBITRAJE" />
+    <node id="PRUEBAS" />
+    <node id="NORMAS Y PROCEDIMIENTOS" />
+    <node id="CONFLICTOS" />
+    <node id="LEA ESTE APARTADO" />
+    <node id="JUICIO CON JURADO" />
+    <node id="S&#195;O PAULO-SP" />
+    <node id="CONDADO DE SAN MATEO" />
+    <node id="FORO" />
+    <node id="SECCI&#211;N RESOLUCI&#211;N DE DISPUTAS" />
+    <node id="&#193;RBITRO DE LA RECLAMACI&#211;N" />
+    <node id="VISTA PROBATORIA" />
+    <node id="10 D&#205;AS" />
+    <node id="REBELL&#205;A" />
+    <node id="APP STORE DE APPLE" />
+    <node id="ACUERDO DE LICENCIA DE USUARIO FINAL DE LA APLICACI&#211;N" />
+    <node id="CONDICIONES ADICIONALES" />
+    <node id="USUARIOS ALEMANES" />
+    <node id="EVERNOTE" />
+    <node id="APARTADO" />
+    <node id="GRUPO DE REDACCI&#211;N" />
+    <node id="YAHOO NEW ZEALAND LIMITED" />
+    <node id="LEY DE NUEVA ZELANDA" />
+    <node id="SECCI&#211;N 14.B." />
+    <node id="TRIBUNALES DE RECLAMOS MENORES" />
+    <node id="REGLA 1" />
+    <node id="LEGISLACION LOCAL" />
+    <node id="ARIT&#205;CULOS VIRTUALES" />
+    <node id="PERIODO DE 7 D&#205;AS" />
+    <node id="SECCI&#211;N 11.3" />
+    <node id="CANVA US" />
+    <node id="LEY DE INMIGRACI&#211;N Y NACIONALIDAD" />
+    <node id="SECCI&#211;N 219" />
+    <node id="ORGANIZACI&#211;N TERRORISTA EXTRANJERA" />
+    <node id="USTED ACEPTA NO UTILIZAR LOS SERVICIOS PARA PROPORCIONAR RESPALDO MATERIAL O RECURSOS" />
+    <node id="PROVINCIAS Y TERRITORIOS" />
+    <node id="LEY VIGENTE" />
+    <node id="LIMITACI&#211;N DE LA RESPONSABILIDAD" />
+    <node id="REGLAMENTO FEDERAL DE PROCEDIMIENTO CIVIL" />
+    <node id="C&#211;DIGO DE PROCEDIMIENTO CIVIL DE CALIFORNIA" />
+    <node id="RECLAMACIONES COLECTIVAS" />
+    <node id="RECLAMACIONES REPRESENTATIVAS" />
+    <node id="COMPENSACIONES" />
+    <node id="REGLAS AAA" />
+    <node id="DECISI&#211;N DEL &#193;RBITRO" />
+    <node id="LIMITACI&#211;N DE RESPONSABILIDAD" />
+    <node id="HONORARIOS Y GASTOS DE ABOGADOS" />
+    <node id="SNAP GROUP LIMITED" />
+    <node id="LCIA" />
+    <node id="NORMAS DE ARBITRAJE DEL TRIBUNAL DE ARBITRAJE INTERNACIONAL DE LONDRES" />
+    <node id="LONDRES" />
+    <node id="ARGENTINA" />
+    <node id="COLOMBIA" />
+    <node id="COSTA RICA" />
+    <node id="ECUADOR" />
+    <node id="M&#201;XICO" />
+    <node id="PER&#218;" />
+    <node id="URUGUAY" />
+    <node id="NUESTRA RESPONSABILIDAD" />
+    <node id="PROCEDIMIENTO FORMAL" />
+    <node id="PR&#211;RROGA DE COMPETENCIA" />
+    <node id="YAHOO! TAIWAN HOLDINGS LIMITED" />
+    <node id="TRIBUNAL DEL DISTRITO DE TAIPEI" />
+    <node id="OFERTA DE ACUERDO" />
+    <node id="INDEMNIZACI&#211;N" />
+    <node id="&#193;MSTERDAM" />
+    <node id="LEGISLACI&#211;N LOCAL OBLIGATORIA" />
+    <node id="INGLATERRA Y GALES" />
+    <node id="GASTOS DE DEVOLUCI&#211;N" />
+    <node id="COMPRADOR" />
+    <node id="ETIQUETA DE ENV&#205;O" />
+    <node id="EMPRESA DE TRANSPORTE" />
+    <node id="HIPERV&#205;NCULOS" />
+    <node id="SITIOS WEB" />
+    <node id="VIRUS" />
+    <node id="GUSANOS" />
+    <node id="TROYANOS" />
+    <node id="ELEMENTOS DESTRUCTIVOS" />
+    <node id="PRUDENCIAS" />
+    <node id="15D" />
+    <node id="REGLAMENTO 1107/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" />
+    <node id="DERECHOS DE LAS PERSONAS CON DISCAPACIDAD Y LAS PERSONAS CON MOVILIDAD REDUCIDA" />
+    <node id="DECLARACI&#211;N" />
+    <node id="RENUNCIAR" />
+    <node id="PROPIEDAD INTELECTUAL" />
+    <node id="PROPIEDAD INDUSTRIAL" />
+    <node id="DERECHOS DE PRIVACIDAD" />
+    <node id="DERECHOS DE PUBLICIDAD" />
+    <node id="USUARIO/CONSUMIDOR" />
+    <node id="LEY 21.431" />
+    <node id="X.COM" />
+    <node id="ACUERDO DE USUARIO" />
+    <node id="POL&#205;TICAS INCORPORADAS" />
+    <node id="N/A" />
+    <node id="SERVICIO DE SPOTIFY" />
+    <node id="MALWARE" />
+    <node id="FUNCIONES DE FILTRADO" />
+    <node id="LEY PERTINENTE" />
+    <node id="APLICABLE" />
+    <node id="P&#193;GINA WEB" />
+    <node id="ENLACES A P&#193;GINAS WEB DE TERCEROS" />
+    <node id="NATIONAL ARBITRATION AND MEDIATION" />
+    <node id="JAPAN" />
+    <node id="BOUNDLESS INC." />
+    <node id="METODOS ALTERNATIVOS" />
+    <node id="HTTP://EC.EUROPA.EU/CONSUMERS/ODR/" />
+    <node id="DESPEGAR" />
+    <node id="PROVEEDOR FINAL" />
+    <node id="ARBITRAJE VINCULANTE" />
+    <node id="RENUNCIA A DEMANDAS COLECTIVAS" />
+    <node id="EVGENY INBERG" />
+    <node id="EUROPEAN UNION" />
+    <node id="DSA" />
+    <node id="RAPPIFAVOR" />
+    <node id="CSC LAWYERS INCORPORATING SERVICE" />
+    <node id="SACRAMENTO, CALIFORNIA" />
+    <node id="NOTIFICACI&#211;N PREVIA A LA CONTROVERSIA" />
+    <node id="SECCI&#211;N 22.6" />
+    <node id="RECURSOS Y MECANISMOS DE REPARACI&#211;N" />
+    <node id="INFRACCI&#211;N DE DERECHOS DE AUTOR" />
+    <node id="REGLAS DE ARBITRAJE VIGENTE PARA CONSUMIDORES" />
+    <node id="REGLAS DE ARBITRAJE VIGENTE DE LA AAA" />
+    <node id="OFERTAS DE RESOLUCI&#211;N" />
+    <node id="PLAZO DE UN A&#209;O" />
+    <node id="SINGAPORE" />
+    <node id="CL&#193;USULA 23.2" />
+    <node id="SIAC" />
+    <node id="REGLAS DEL SIAC" />
+    <node id="LEY DE SINGAPUR" />
+    <node id="REGLAMENTO FEDERAL DEL PROCEDIMIENTO CIVIL 11(B)" />
+    <node id="DINAMARCA" />
+    <node id="SUBSCRITORES" />
+    <node id="CANCELACI&#211;N" />
+    <node id="AP&#201;NDICE" />
+    <node id="FITBIT PAY" />
+    <node id="T&#201;RMINOS DEL BANCO" />
+    <node id="LEYES APLICABLES" />
+    <node id="COLABORADOR AUTORIZADO DE ROVIO" />
+    <node id="LEGISLACI&#211;N DE LA REP&#218;BLICA DE COREA" />
+    <node id="LEGISLACI&#211;N VIGENTE" />
+    <node id="HONORARIOS Y GASTOS" />
+    <node id="PRECIOS ERR&#211;NEOS" />
+    <node id="CUOTAS Y GASTOS DEL ARBITRAJE" />
+    <node id="AVISO FIRMADO" />
+    <node id="GASTO ADMINISTRATIVO" />
+    <node id="ASOCIACI&#211;N ESTADOUNIDENSE DE ARBITRAJE" />
+    <node id="NORMAS DE ARBITRAJE DEL CONSUMIDOR" />
+    <node id="CONDADO DE LOS ESTADOS UNIDOS" />
+    <node id="PROCEDIMIENTOS DE ARBITRAJE" />
+    <node id="TERMINACI&#211;N DE CONDICIONES DE SERVICIO" />
+    <node id="LEY ALEMANA DE RESPONSABILIDAD POR PRODUCTO" />
+    <node id="ELECCI&#211;N DE LA LEY" />
+    <node id="LEY FEDERAL DE LOS EE. UU." />
+    <node id="CONVENCI&#211;N DE LAS NACIONES UNIDAS" />
+    <node id="DEMANDAS DE ARBITRAJE" />
+    <node id="PROTOCOLOS ADICIONALES" />
+    <node id="PLAZOS DE PRESCRIPCI&#211;N" />
+    <node id="ART&#205;CULO 24(2)" />
+    <node id="CONDITIONS DE USO" />
+    <node id="DA&#209;OS EJEMPLARIZANTES" />
+    <node id="LEGISLACI&#211;N BRASILE&#209;A" />
+    <node id="TRIBUNAL BRASILE&#209;O" />
+    <node id="LEYES" />
+    <node id="ALEMANIA" />
+    <node id="SUSCRIPTORES" />
+    <node id="CONDITIONS OF USE" />
+    <node id="EBAY (UK) LIMITED" />
+    <node id="EBAY GMBH" />
+    <node id="EBAY CANADA LIMITED" />
+    <node id="EBAY SINGAPORE SERVICES PRIVATE LIMITED" />
+    <node id="EBAY MARKETPLACES GMBH" />
+    <node id="PA&#205;SES DESIGNADOS" />
+    <node id="LINKEDIN IRELAND" />
+    <node id="TIEMPO L&#205;MITE" />
+    <node id="PERSONAS CON DISCAPACIDAD O MOVILIDAD REDUCIDA" />
+    <node id="JUEZ" />
+    <node id="LEY DE COMERCIO ELECTR&#211;NICO" />
+    <node id="DINERO VIRTUAL" />
+    <node id="BIENES VIRTUALES" />
+    <node id="CERTIFICADO ATOL" />
+    <node id="TITULAR ALTERNATIVO DE LA ATOL" />
+    <node id="INSONSENCIA" />
+    <node id="SEGA CORPORATION" />
+    <node id="ART&#205;CULO 3(4) DE LA LEY DE SERVICIOS DE PAGO" />
+    <node id="CONTENIDO PRINCIPAL" />
+    <node id="INSTRUMENTO DE PAGO PREPAGADO" />
+    <node id="TRIBUNAL DE RECLAMOS MENORES" />
+    <node id="PROCEDIMIENTO DE ARBITRAJE" />
+    <node id="TRIBUNALES DEL PA&#205;S DE RESIDENCIA" />
+    <node id="LEY DE ESTADOS UNIDOS" />
+    <node id="ACUERDO DE ARBITRAJE Y RESOLUCI&#211;N DE CONTROVERSIAS" />
+    <node id="HONORARIOS DE ABOGADOS" />
+    <node id="COSTAS PROCESALES" />
+    <node id="DA&#209;O" />
+    <node id="PERJUICIO" />
+    <node id="PERDIDA" />
+    <node id="REGLAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" />
+    <node id="RESPONSABILIDAD DE LA AEROL&#205;NEA" />
+    <node id="SERVICIOS DE TERCEROS" />
+    <node id="TERMINOS Y LA POL&#205;TICA DE PRIVACIDAD" />
+    <node id="OPCI&#211;N DE TRIBUNAL DE INSTANCIA" />
+    <node id="ADR" />
+    <node id="TARIFA INICIAL DE SOLICITUD DE ARBITRAJE" />
+    <node id="TARIFA PARA INICIAR UN JUICIO" />
+    <node id="POL&#205;TICA SOBRE CANCELACIONES DE PEDIDOS" />
+    <node id="COMPRADORES" />
+    <node id="VENDEDOR" />
+    <node id="DEVOLUCI&#211;N" />
+    <node id="REGLAMENTO DE LA ADR" />
+    <node id="EMPLOYEE ASSISTANCE PROGRAM" />
+    <node id="CONTRATACI&#211;N" />
+    <node id="CCI" />
+    <node id="REGLAMENTO DE ARBITRAJE DE LA C&#193;MARA DE COMERCIO INTERNACIONAL" />
+    <node id="REGLAMENTO DE MEDIACI&#211;N DE LA CCI" />
+    <node id="PROCESO EXPEDITO" />
+    <node id="&#193;RBITRO DE EMERGENCIA" />
+    <node id="TRIBUNAL DE DISTRITO DE LOS EE. UU. PARA EL DISTRITO SUR DE NUEVA YORK" />
+    <node id="EDAD M&#205;NIMA DE 16 A&#209;OS" />
+    <node id="EDAD M&#205;NIMA DE 13 A&#209;OS" />
+    <node id="PA&#205;SES FUERA DE LA UNI&#211;N EUROPEA" />
+    <node id="SI VIVES EN LOS EE. UU." />
+    <node id="REGULACIONES LEGALES OBLIGATORIAS" />
+    <node id="ARBITRACI&#211;N" />
+    <node id="INSTRUCCIONES" />
+    <node id="4231 BALBOA AVENUE, #1008, SAN DIEGO, CA 92117" />
+    <node id="LEGALNOTICE@EVERNOTE.COM" />
+    <node id="HIPAA" />
+    <node id="GRASS-LEACH-BLILEY" />
+    <node id="LEY DE PORTABILIDAD Y SEGURIDAD DEL SEGURO M&#201;DICO" />
+    <node id="SEGUROS" />
+    <node id="SITIOS WEB Y RECURSOS DE TERCEROS" />
+    <node id="LOS &#193;NGELES" />
+    <node id="TERCERAS PARTES" />
+    <node id="SITIO WEB" />
+    <node id="NO RESPONSABILIDAD" />
+    <node id="DECLARACI&#211;N DE DERECHOS DEL CONSUMIDOR DEL SERVICIO DE CITAS DE NUEVA YORK" />
+    <node id="UE" />
+    <node id="EEE" />
+    <node id="SUIZA" />
+    <node id="FAVOR DE LEER DETENIDAMENTE LOS SIGUIENTES P&#193;RRAFOS" />
+    <node id="RENUNCIA A DEMANDA COLECTIVA" />
+    <node id="RENUNCIA A JUICIO CON JURADO" />
+    <node id="ART&#205;CULO 6 (12)" />
+    <node id="DMA" />
+    <node id="CENTRO DE AYUDA" />
+    <node id="CANVA UK OPERATIONS LTD" />
+    <node id="33-35 HOXTON SQUARE, LONDON N1 6NN" />
+    <node id="REGULACIONES FEDERALES DE ADQUISICI&#211;N" />
+    <node id="GOBIERNO DE EE. U. S." />
+    <node id="ART&#205;CULOS COMERCIALES" />
+    <node id="48 CFR 2.101" />
+    <node id="12.212" />
+    <node id="EXCLUSI&#211;N DE LAS DEMANDAS COLECTIVAS" />
+    <node id="SUPPORT@ROVIO.COM" />
+    <node id="SANTA MONICA" />
+    <node id="REPUBLIC POPULAR CHINA" />
+    <node id="DMCA" />
+    <node id="URL" />
+    <node id="N&#218;MERO DE TEL&#201;FONO" />
+    <node id="CORREO ELECTR&#211;NICO" />
+    <node id="FIRMA" />
+    <node id="PRIVACIDAD" />
+    <node id="ABOGADOS DE SPOTIFY" />
+    <node id="USD 1000,00" />
+    <node id="EVENTO" />
+    <node id="REDES DE TEL&#201;FONOS M&#211;VILES" />
+    <node id="ZONAS CON COBERTURA INAL&#193;MBRICA" />
+    <node id="INTERNET INAL&#193;MBRICO" />
+    <node id="R&#201;GIMEN DE RESPONSABILIDAD" />
+    <node id="DE VOLVER DE TU DINERO" />
+    <node id="GASTOS DE ENV&#205;O" />
+    <node id="LEYES DE IRLANDA" />
+    <node id="ASOCIACI&#211;N AMERICANA DE ARBITRAJE" />
+    <node id="REGLAMENTO DE ARBITRAJE COMERCIAL" />
+    <node id="PROCEDIMIENTOS COMPLEMENTARIOS PARA CONFLICTOS RELACIONADOS CON EL CONSUMIDOR" />
+    <node id="CONDADO DE ESTADOS UNIDOS" />
+    <node id="REGULAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" />
+    <node id="ACCIDENTE" />
+    <node id="SERVICIO DE EVERNOTE" />
+    <node id="SECCI&#211;N 2" />
+    <node id="LFA" />
+    <node id="ESTADO DE UTAH" />
+    <node id="T&#201;RMINOS LEGALES ADICIONALES" />
+    <node id="POL&#205;TICA DE REEMBOLSO" />
+    <node id="POL&#205;TICA CONTRA LA DISCRIMINACI&#211;N" />
+    <node id="POL&#205;TICA DE FUERZA MAYOR" />
+    <node id="POL&#205;TICA DE CONTENIDO" />
+    <edge source="DROPBOX" target="CONTRA RCC">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DROPBOX" target="DROPBOX SUS FILIALES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DROPBOX" target="ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DROPBOX" target="PEPE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DROPBOX" target="NOTIFICACI&#211;N DE DISPUTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="PROVEEDORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="ILG CC RC">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="ROVIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="RESPONSABILIDAD">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="HEADSPACE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="GASTOS TOTALES ABONADOS O PENDIENTES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="YOUTUBE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="NIANTIC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="STARBUCKS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="SECCI&#211;N 4">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="CONTRATO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="META">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="APLICACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="JURISDICCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="SNAP">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="GOOGLE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="LINKEDIN">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="RAPPI">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="NUESTRA RESPONSABILIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="APPLE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="ACUERDO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="FITBIT">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="LEYES APLICABLES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="WHATSAPP">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="USUARIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA RCC" target="R&#201;GIMEN DE RESPONSABILIDAD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAS DE LA AAA" target="HONORARIOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE LA AAA" target="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="REGLAS DE LA AAA" target="CONSUMIDOR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGLAS DE LA AAA" target="HONORARIOS POR EL ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="ACADEMIA.EDU">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="REGLA FEDERAL DE PROCEDIMIENTO CIVIL 11(B)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="RECLAMACIONES FR&#205;VOLAS O IMPROCEDENTES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="REGLAS DE ADR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="ARBITRO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="TINDER">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="REGLAS DE NAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="REEMBOLSO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="REGLAS DEL PROVEEDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS" target="ADJUDICACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="CONTRA LA LPC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="&#193;RBITRO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ARBITRAJE">
+      <data key="d0">55.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ACADEMIA.EDU">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="JUICIO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ILG LPC PRO">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="AAA">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="JURISDICTION">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="RECLAMACIONES FR&#205;VOLAS O IMPROCEDENTES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="SECCI&#211;N &quot;RESOLUCI&#211;N DE DISPUTAS&quot;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="FALTA DE JURISDICCI&#211;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="FALTA DE COMPETENCIA EN RAZ&#211;N DE LA PERSONA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="AMAZON">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ENTIDAD GUBERNAMENTAL FEDERAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ENTIDAD GUBERNAMENTAL ESTATAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="YOUTUBE">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ACUERDO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="RESOLUCI&#211;N DE CONFLICTOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="SECCI&#211;N 6.3">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="VIMEO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="PROCESO ALTERNATIVO DE RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="KING">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="LEY DE OREG&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="LEGISLACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="TRIBUNALES DE RECLAMOS MENORES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="EVERNOTE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="SNAP GROUP LIMITED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="&#193;MSTERDAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="INGLATERRA Y GALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="NATIONAL ARBITRATION AND MEDIATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="OFERTAS DE RESOLUCI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="LEGISLACI&#211;N VIGENTE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="DEMANDAS DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="TRIBUNAL DE RECLAMOS MENORES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ESTADO DE CALIFORNIA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="HEADSPACE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="SKYSCANNER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="SERVICIO DE EVERNOTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE PRORROGAR COMPETENCIA" target="LFA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ACADEMIA.EDU" target="FEEDBACK@ACADEMIA.EDU">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROCEDIMIENTOS SUPLEMENTARIOS PARA DISPUTAS RELACIONADAS CON EL CONSUMIDOR" target="REGLAS DE ARBITRAJE COMERCIAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE COMERCIAL" target="LEY FEDERAL DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE COMERCIAL" target="AAA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE COMERCIAL" target="WWW.ADR.ORG">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEY FEDERAL DE ARBITRAJE" target="INTERPRETACI&#211;N">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="LEY FEDERAL DE ARBITRAJE" target="NORMAS DE ARBITRAJE DEL CONSUMIDOR DE LA AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="TINDER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="LIMITACI&#211;N DE DEMANDAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="ILG LPC DEFAULT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="ILG">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="PLAZO DE RECLAMO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="SECCI&#211;N 6.3">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="RETRACTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="VENTA DE MOTOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="&#211;PTICA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="OPERADOR DE TELEFON&#205;A M&#211;VIL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="TERMINOS DE SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="T&#201;RMINOS DE SERVICIO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="ILG LPC">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="GRUPO DE REDACCI&#211;N">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="EVERNOTE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="EBAY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="RAPPI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="SPOTIFY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRA LA LPC" target="EXCLUSI&#211;N DE LAS DEMANDAS COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ACUERDO DE ARBITRAJE VINCULANTE">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="NONE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="NUEVA ZELANDA">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="INDIA">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="JAP&#211;N">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="AIRBNB">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CONSUMIDOR.GOV.BR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="FITBIT LLC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="LEGAL_CONCEPT">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="RELACI&#211;N">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="PLATAFORMA EUROPEA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="AVISO ESPECIAL PARA LOS USUARIOS DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="RESOLUCI&#211;N DE CONTROVERSIAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ARIZONA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CALIFORNIA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="COLORADO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CONNECTICUT">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ILLINOIS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="IOWA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="MINNESOTA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="NUEVA YORK">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CAROLINA DEL NORTE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="OHIO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="RHODE ISLAND">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="WISCONSIN">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="NA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CONDICIONES ESPEC&#205;FICAS PARA RESIDENTES DE ALEMANIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="HONORARIOS DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SANCIONES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="UNI&#211;N EUROPEA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ESPACIO ECON&#211;MICO EUROPEO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ESTADOS UNIDOS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SPOTIFY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="MODIFICACI&#211;N DE LOS SERVICIOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="MODIFICACI&#211;N DE LAS PRESENTES CONDICIONES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="PROCEDIMIENTOS JUDICIALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="REGLAMENTO 261/2004 DEL PARLAMENTO EUROPEO Y DEL CONSEJO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="YAHOO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="NIANTIC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="REGI&#211;N EUROPEA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="CONDICIONES">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="JURISDICCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="LEGAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="X.COM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="N/A">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="LABEL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="AAA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="RENUNCIA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="LEY ALEMANA DE RESPONSABILIDAD POR PRODUCTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="PARTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="DSA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SUSCRIPTORES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="REGLAMENTO 1107/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ADR">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="HIPAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="GRASS-LEACH-BLILEY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="LEY DE PORTABILIDAD Y SEGURIDAD DEL SEGURO M&#201;DICO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SEGUROS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SERVICIOS">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="SITIOS WEB Y RECURSOS DE TERCEROS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CL&#193;USULA NO APLICABLE" target="ROVIO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="RENUNCIA DE DEMANDA COLECTIVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="JUICIO POR JURADOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="DISPUTA(S)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="DISPUTA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="USUARIOS DE LOS EE. UU.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE VINCULANTE" target="YAHOO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RENUNCIA DE DEMANDA COLECTIVA" target="SECCI&#211;N 22">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="AVISOS DE INFRACCI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="CUENTA DE USUARIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="CORTANA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="V&#205;NCULOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="WALE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="SINGAPUR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MICROSOFT" target="T&#201;RMINOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISOS DE INFRACCI&#211;N" target="T&#205;TULO 17, C&#211;DIGO DE ESTADOS UNIDOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISOS DE INFRACCI&#211;N" target="SECCI&#211;N 512">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISOS DE INFRACCI&#211;N" target="CAP&#205;TULO III DE LA REGULACI&#211;N (UE) 2022/2065">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="FITBIT INTERNATIONAL LIMITED" target="EUROPEAN ECONOMIC AREA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FITBIT INTERNATIONAL LIMITED" target="UK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FITBIT INTERNATIONAL LIMITED" target="SWITZERLAND">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EUROPEAN ECONOMIC AREA" target="DERECHO DE DESISTIMIENTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EUROPEAN ECONOMIC AREA" target="TERMINOS DE SERVICIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GORDON HOUSE" target="IRELAND">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO" target="LEY DE SERVICIOS DIGITALES DE LA UE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO" target="CONTENIDO ILEGAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="POL&#205;TICAS Y PROCEDIMIENTOS INTERNOS DE YAHOO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO" target="REVISI&#211;N HUMANA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="YAHOO" target="USTED Y NOSOTROS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO" target="ARBITRAJE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="YAHOO" target="DISPUTAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="CONDICIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="LEY DEL LUGAR DE INCORPORACI&#211;N DE YAHOO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="YAHOO" target="COMISI&#211;N FEDERAL DE COMUNICACIONES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO" target="BRASIL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="PROTEGER LOS DATOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="CUENTA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="SINGAPUR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="INDONESIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="MALASIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="FILIPINAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="TAILANDIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="VIETNAM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO" target="LAWS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO" target="SECCI&#211;N 14.B.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO" target="NO APLICABLE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEY DE SERVICIOS DIGITALES DE LA UE" target="EUROPA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY DE SERVICIOS DIGITALES DE LA UE" target="MEDIO ORIENTE">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="LEY DE SERVICIOS DIGITALES DE LA UE" target="&#193;FRICA">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 70A-2-401(2) DEL C&#211;DIGO ANOTADO DE UTAH" target="SECCI&#211;N 2-401(2) DEL C&#211;DIGO UNIFORME DE COMERCIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 70A-2-401(2) DEL C&#211;DIGO ANOTADO DE UTAH" target="C&#211;DIGO ANOTADO DE UTAH">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 2-401(2) DEL C&#211;DIGO UNIFORME DE COMERCIO" target="C&#211;DIGO UNIFORME DE COMERCIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRIBUNALES IRLANDESES" target="SOMETERNOS A LA JURISDICCI&#211;N EXCLUSIVA DE LOS TRIBUNALES IRLANDESES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TRIBUNALES IRLANDESES" target="RENUNCIAR A CUALQUIER OBJECI&#211;N SOBRE EL EJERCICIO DE LA JURISDICCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="REGLAS DE NAM">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="CLAUSULA 15">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="JUZGADO DE PAZ">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="TERMINO INJUSTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="LEY APLICABLE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="PRINCIPIOS DE EQUIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="COMPENSACIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="LAUDO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="HONORARIOS Y GASTOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="SPOTIFY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="&#193;RBITRO" target="LAUDO ARBITRAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAS DE NAM" target="15D">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JUZGADO DE PAZ" target="CL&#193;USULA 15">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JUZGADO DE PAZ" target="PARTES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="TERMINO INJUSTO" target="TERMINO MODIFICADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NUEVA ZELANDA" target="LEY DE GARANT&#205;AS PARA EL CONSUMIDOR DE NUEVA ZELANDA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NUEVA ZELANDA" target="YAHOO NEW ZEALAND LIMITED">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="NUEVA ZELANDA" target="LEY DE NUEVA ZELANDA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NUEVA ZELANDA" target="ATENCI&#211;N AL CLIENTE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="INDIA" target="CONDITIONS ADICIONALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INDIA" target="YAHOO INDIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INDIA" target="SI RESIDES EN">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INDIA" target="ATENCI&#211;N AL CLIENTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="AOL MEDIA LLC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="YAHOO FINANCE LLC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="AOL MEMBER SERVICES, LLC">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="SECCI&#211;N 14.2">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="NEW YORK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="YAHOO MEDIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="TAIWAN">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="EDAD M&#205;NIMA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="JAPAN">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO INC." target="USA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AOL MEDIA LLC" target="AOL MAIL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AOL MEDIA LLC" target="AOL MEMBER SERVICES LLC">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="ALL ENTITIES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="PROH&#205;BE ACCESO A JUSTICIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="TINDER">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="CANVA PTY LTD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="FAR 52.227-19">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="JURISDICTION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="LEY FEDERAL DE ARBITRAJE DE ESTADOS UNIDOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="AIRBNB.ORG">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="WHATSAPP">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="INFRINGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="NO SE ADMITEN DEMANDAS COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="ART&#205;CULO &#167;1542 DEL C&#211;DIGO CIVIL DE CALIFORNIA">
+      <data key="d0">12.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="LEYES DEL ESTADO DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="LEYAS FEDERALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="FDA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="JURISDICCI&#211;N">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="LEY DE LOS ESTADOS UNIDOS DE AM&#201;RICA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="NIANTIC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="CANVA US">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="ACUERDO DE ARBITRAJE Y RESOLUCI&#211;N DE CONTROVERSIAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ESTADOS UNIDOS" target="SI VIVES EN LOS EE. UU.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONDICIONES DEFINIDAS" target="LEGAL_CONCEPT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES DEFINIDAS" target="ATENCI&#211;N AL CLIENTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDICIONES DEFINIDAS" target="P&#193;RRAFO O">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDICIONES DEFINIDAS" target="EDAD M&#205;NIMA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="EDAD M&#205;NIMA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="FUTURO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="DISPOSICI&#211;N OBLIGATORIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="INFORMACI&#211;N DE CAR&#193;CTER PERSONAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="LEY DE CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="PROHIBICI&#211;N DE ACCIONES GRUPALES Y REPARACIONES NO INDIVIDUALIZADAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="DESINTERMEDIACI&#211;N">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="REGLAMENTO FEDERAL DE PROCEDIMIENTO CIVIL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGAL_CONCEPT" target="C&#211;DIGO DE PROCEDIMIENTO CIVIL DE CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EDAD M&#205;NIMA" target="CONDICIONES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ILG" target="DESINTERMEDIACI&#211;N">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="ILG" target="LPC">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="ILG" target="JUS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ILG" target="PROHIBICI&#211;N DE ACCESO A JUSTICIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="CORTANA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="STARBUCKS COFFEE CHILE S.A.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="SKYSCANNER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="PLATAFORMA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="ILG LPC INT">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="ACUERDO DE VIAJE VINCULADO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="TENPO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DESINTERMEDIACI&#211;N" target="MYHERITAGE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LPC" target="PROHIBICI&#211;N DE ACCESO A JUSTICIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LPC" target="TERMINOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="JAP&#211;N" target="ATENCI&#211;N AL CLIENTE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="JAP&#211;N" target="CONTRATO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JAP&#211;N" target="JURISDICCI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ATENCI&#211;N AL CLIENTE" target="ENLACES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ATENCI&#211;N AL CLIENTE" target="BRASIL">
+      <data key="d0">4.0</data>
+    </edge>
+    <edge source="ATENCI&#211;N AL CLIENTE" target="EVERNOTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ATENCI&#211;N AL CLIENTE" target="RECLAMACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="CONTENIDO DE LA PLATAFORMA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="MARCAS COMERCIALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="IM&#193;GENES COMERCIALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="INVENCIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="C&#211;DIGO FUENTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="C&#211;DIGO OBJETO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="DERECHOS DE PROPIEDAD INTELECTUAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="PLATAFORMA AIRBNB">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="SECTION 22">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="ARBITRATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="SAN FRANCISCO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AIRBNB" target="TERMINOS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="GOOGLE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="AVISOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="OFERTA DE SENTENCIA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="AIRBNB" target="PROVEEDOR DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="CSC LAWYERS INCORPORATING SERVICE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AIRBNB" target="RENUNCIA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="SECCI&#211;N 22">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB" target="TRIBUNAL BRASILE&#209;O">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="SERVICIOS DE TERCEROS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AIRBNB" target="ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AIRBNB" target="SINGAPUR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AIRBNB" target="REPUBLIC POPULAR CHINA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AIRBNB" target="T&#201;RMINOS LEGALES ADICIONALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="USUARIOS" target="LICENCIAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="USUARIOS" target="BADOO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USUARIOS" target="RESPONSABILIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USUARIOS" target="TERMINOS DE SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USUARIOS" target="T&#201;RMINOS DE SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USUARIOS" target="VIMEO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="USUARIOS" target="ACTIVIDAD ILEGAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JURISDICCI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="HEADSPACE">
+      <data key="d0">27.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="EXCLUSI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="EBAY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONDITIONES DE USO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONDADO DE SANTA CLARA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONFLICT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="PER&#205;ODO DE RESOLUCI&#211;N INFORMAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="USTED O NOSOTROS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NORMAS DE LA AAA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DISPOSICI&#211;N OBLIGATORIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="LITIGIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="COSTOS DEL ARBITRAJE">
+      <data key="d0">13.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DERECHO DE DESCUBRIMIENTO">
+      <data key="d0">11.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="FITBIT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="EXCEPCIONES AL ACUERDO DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DISPOSICIONES DE ARBITRAJE OBLIGATORIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="SECCI&#211;N 14.9">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DISPUTAS RELACIONADAS CON ESTOS T&#201;RMINOS O SU USO DE LOS PRODUCTOS Y SERVICIOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="SECCI&#211;N 10.D">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RECLAMACIONES FR&#205;VOLAS O IMPROCEDENTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="MEDIADOR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DISPUTAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="REGLAMENTOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="AVISO DE DISPUTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JUICIO POR JURADO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TRIBUNAL">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TINDER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CANVA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RECLAMACIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONFLICTO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JUZGADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="MODIFICACIONES DE LAS REGLAS DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="UTAH">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DISPUTA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RESOLUCI&#211;N DE CONFLICTOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="PROCESO ALTERNATIVO DE RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="ADMINISTRADOR DEL ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONFIDENCIALIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="WHATSAPP LLC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="PROCEDIMIENTO DE EXCLUSI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="REPARACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JURADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="DEMANDAS COLECTIVAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="FAA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TERMINOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="LEGISLACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TRIBUNALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="PRUEBA DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CONFLICTOS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="LEA ESTE APARTADO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JUICIO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="JUICIO CON JURADO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TRIBUNALES DE RECLAMOS MENORES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NIANTIC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="REGLAMENTO DE LA AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="INFORMACI&#211;N">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="N/A">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="ARBITRO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NATIONAL ARBITRATION AND MEDIATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="NOTIFICACI&#211;N PREVIA A LA CONTROVERSIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="PARTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="ASOCIACI&#211;N ESTADOUNIDENSE DE ARBITRAJE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="TRIBUNAL DE RECLAMOS MENORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="LOS &#193;NGELES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="ROVIO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="FAVOR DE LEER DETENIDAMENTE LOS SIGUIENTES P&#193;RRAFOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RENUNCIA A DEMANDA COLECTIVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RENUNCIA A JUICIO CON JURADO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="RECLAMO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="LAUDO ARBITRAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="USD 1000,00">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRAJE" target="ASOCIACI&#211;N AMERICANA DE ARBITRAJE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="EL DISTRITO NORTE DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="JURISDICTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="ESTADO DE CALIFORNIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="JURISDICCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="PROCEDIMIENTOS DE ARBITRAJE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SAN FRANCISCO" target="CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EL DISTRITO NORTE DE CALIFORNIA" target="CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="JURISDICTION">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="LAWS OF CALIFORNIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="LINKEDIN">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="PROHIBICI&#211;N DE ACCESO A JUSTICIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="TINDER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="VENDEDOR DE VIAJES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="LEGISLACI&#211;N DE CALIFORNIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="C&#211;DIGO CIVIL DE CALIFORNIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="UNIDAD DE ASISTENCIA DE CUMPLIMIENTO LEGAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="TRIBUNAL DE INSTANCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="JURISDICCI&#211;N">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="MENLO PARK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="PROH&#205;BE ACCESO A JUSTICIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="TRIBUNALES FEDERALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="PROCEDIMIENTOS DE ARBITRAJE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="ELECCI&#211;N DE LA LEY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="OPCI&#211;N DE TRIBUNAL DE INSTANCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="SANTA MONICA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CALIFORNIA" target="CONDADO DE ESTADOS UNIDOS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="SANTA CLARA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="TRIBUNAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="ACUERDO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="SECCI&#211;N 6.1">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="VII">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="DISPUTA">
+      <data key="d0">26.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="SECCI&#211;N 1">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="SECCI&#211;N 18.C">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="TRIBUNAL DE DISTRITO DE LOS EE. UU. PARA EL DISTRITO SUR DE NUEVO YORK">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="SECCI&#211;N 6.3">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="PROVISIONES OBLIGATORIAS DE ARBITRAJE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="PROH&#205;BE ACCESO A JUSTICIA">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="CONDADO DE SAN DIEGO">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="EXCEPCIONES AL ACUERDO DE ARBITRAR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="LEY APLICABLE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="LEY DE CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="META PLATFORMS, INC.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="CONDADO DE SAN MATEO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="YAHOO NEW ZEALAND LIMITED">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="LAUDO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="LIMITACI&#211;N DE RESPONSABILIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="TERMINOS Y CONDICIONES">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="BOX">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="RESOLUCI&#211;N DE CONTROVERSIAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N" target="FORO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AVISO DE EXCLUSI&#211;N VOLUNTARIA DEL ARBITRAJE" target="PROCEDIMIENTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="ART&#205;CULOS VIRTUALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TINDER" target="CUENTA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="TINDER" target="TINDER, LLC">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TINDER" target="REQUERIMIENTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="APPLE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="TINDER" target="SERVICE EXTERNO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TINDER" target="JUICIO POR JURADO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="COLECTIVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="REGLAS DE SOLICITUDES EN MASA DE NAM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="LEGISLACI&#211;N APLICABLE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="RESOLUCI&#211;N DE CONFLICTOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="ILG LPC PRO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TINDER" target="NAM">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TINDER" target="LAUDO ARBITRAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER" target="PARTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PER&#205;ODO DE GRACIA PARA LOS CONSUMIDORES DE LA UE" target="SECCI&#211;N 11">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="PER&#205;ODO DE GRACIA PARA LOS CONSUMIDORES DE LA UE" target="EU">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 11" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 22" target="SECCI&#211;N 12.6">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 22" target="SECCI&#211;N 12">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 22" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ARBITRADOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="SAN DIEGO, CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="NUEVA YORK, NUEVA YORK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="REGULACIONES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="LEGISLACI&#211;N DEL ESTADO DE CALIFORNIA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="LABEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">19.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="LEGISLACI&#211;N APLICABLE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="META">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ESTADO DE NUEVA YORK">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ROVIO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ACUERDO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="PROCESO ALTERNATIVO DE RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="JUS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="ARBITRO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROH&#205;BE ACCESO A JUSTICIA" target="NUEVA YORK">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ARBITRADOR" target="DISPUTAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER LEGAL" target="DALLAS, TEXAS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TINDER LEGAL" target="ILLINOIS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER LEGAL" target="NUEVA YORK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER LEGAL" target="CAROLINA DEL NORTE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER LEGAL" target="OHIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILLINOIS" target="815 ILCS 414/1.5(C)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ILLINOIS" target="CONFORMIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="CL&#193;USULA 5">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="POL&#205;TICA DE PRIVACIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="RECLAMO DE PRIVACIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="SERVICIOS">
+      <data key="d0">13.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="JURISDICTION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="NA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="TRIBUNALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="TRIBUNAL DE DISTRITO DE LOS EE. UU. PARA EL DISTRITO SUR DE NUEVA YORK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="DECLARACI&#211;N DE DERECHOS DEL CONSUMIDOR DEL SERVICIO DE CITAS DE NUEVA YORK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NUEVA YORK" target="ABOGADOS DE SPOTIFY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="REEMBOLSO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="ACUERDO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="GASTOS TOTALES ABONADOS O PENDIENTES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="TRIPADVISOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="CONDICIONES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="ACTUALIZACIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="USO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="ACCESO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SERVICIOS" target="CONTENIDO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REEMBOLSO" target="ARIT&#205;CULOS VIRTUALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REEMBOLSO" target="PERIODO DE 7 D&#205;AS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROVEEDORES" target="DATOS PERSONALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROVEEDORES" target="POL&#205;TICAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="PROVEEDORES" target="CERTIFICADO ATOL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DATOS PERSONALES" target="CHILE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILG CC RC" target="NO CONFIDENCIAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ILG CC RC" target="RESPONSABILIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROVIO" target="DAN&#771;OS ESPECIALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="DAN&#771;OS POR LESIONES PERSONALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="DAN&#771;OS A LA PROPIEDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="P&#201;RDIDA DE FONDO DE COMERCIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROVIO" target="FALLOS O MAL FUNCIONAMIENTO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROVIO" target="LESIONES PERSONALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="DA&#209;OS PUNITIVOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ROVIO" target="LEY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROVIO" target="AAA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="DISCRECI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="FINLANDIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="ESPOO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="PLATAFORMA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="CONFLICTOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="ARBITRAJE VINCULANTE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ROVIO" target="RENUNCIA A DEMANDAS COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="COLABORADOR AUTORIZADO DE ROVIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ROVIO" target="NA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ROVIO" target="SUPPORT@ROVIO.COM">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="DA&#209;OS PUNITIVOS" target="DA&#209;OS INDIRECTOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS PUNITIVOS" target="GOOGLE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DA&#209;OS PUNITIVOS" target="RESPONSABILIDAD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEY" target="NO RENUNCIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY" target="CONTRATO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY" target="RESPONSABILIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEY" target="NUESTRA RESPONSABILIDAD">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEY" target="OFERTA DE ACUERDO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEY" target="LAUDO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY" target="LAUDO ARBITRAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HEADSPACE" target="NOTIFICACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HEADSPACE" target="LEY APLICABLE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HEADSPACE" target="SECCI&#211;N 14.9">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HEADSPACE" target="SANTA MONICA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NOTIFICACI&#211;N" target="PLAZO DE CANCELACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NOTIFICACI&#211;N" target="FORMULARIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RIPLEY" target="POL&#205;TICA DE CAMBIO Y DEVOLUCI&#211;N DE RIPLEY.COM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RIPLEY" target="CENTRO DE SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RIPLEY" target="N&#218;MERO DE TEL&#201;FONO 600 230 02 22">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="POL&#205;TICA DE CAMBIO Y DEVOLUCI&#211;N DE RIPLEY.COM" target="CONSIDERACIONES IMPORTANTES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NA" target="NA">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="NA" target="ESTADOS UNIDOS DE AM&#201;RICA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="NA" target="SAL SALT LAKE CITY">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NA" target="PRUEBA DE ADN DE SALUD DE MYHERITAGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="CONDICIONES ESPECIALES PARA RESIDENTES DE DETERMINADAS UBICACIONES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="DIRECCI&#211;N DE CORREO ELECTR&#211;NICO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="SECCI&#211;N RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="APPLE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="UNI&#211;N EUROPEA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NA" target="UE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="NA" target="EEE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="NA" target="REINO UNIDO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="NA" target="SUIZA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PLATAFORMA FEDERAL DE RESOLUCI&#211;N DE LITIGIOS DEL CONSUMIDOR DE BRASIL" target="BRASIL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PLATAFORMA FEDERAL DE RESOLUCI&#211;N DE LITIGIOS DEL CONSUMIDOR DE BRASIL" target="RECLAMACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRASIL" target="AVISO DE PRIVACIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="BRASIL" target="YAHOO DO BRASIL INTERNET LTDA.">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="BRASIL" target="DISPUTA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="BRASIL" target="S&#195;O PAULO-SP">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRASIL" target="RAPPI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BRASIL" target="LEGISLACI&#211;N BRASILE&#209;A">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="RECLAMACI&#211;N" target="ATT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RECLAMACI&#211;N" target="INSOLVENCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RECLAMACI&#211;N" target="TRIBUNALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RECLAMACI&#211;N" target="INSONSENCIA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RECLAMACI&#211;N" target="SERVICIO DE EVERNOTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEY APLICABLE" target="APLICACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY APLICABLE" target="PLAZO DE UN A&#209;O">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY APLICABLE" target="NIANTIC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SENTENCIAS" target="LAUDO ARBITRAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="TRIBUNAL">
+      <data key="d0">31.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="PRIVILEGIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="ARBITRO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="HONORARIOS Y GASTOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="DECISI&#211;N DEL &#193;RBITRO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LAUDO ARBITRAL" target="REGLAMENTO DE LA ADR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EBAY" target="EL ARBITRO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="EBAY" target="CONDITIONES DE USO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="EBAY" target="REGLAS DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EBAY" target="CARGOS DE EXPEDIENTE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EBAY" target="GASTOS DE DEVOLUCI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EBAY" target="CONDITIONS DE USO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="EBAY" target="POL&#205;TICA SOBRE CANCELACIONES DE PEDIDOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EBAY" target="R&#201;GIMEN DE RESPONSABILIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRIBUNAL" target="ESTADOSUNIDOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRIBUNAL" target="TRIBUNAL DE INSTANCIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRIBUNAL" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRIBUNAL" target="EVERNOTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRIBUNAL" target="LEGISLACI&#211;N APLICABLE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N DEL ESTADO DE CALIFORNIA" target="AUTORIDADES COMPETENTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="INFORMACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="PROVEEDOR DE VIAJES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="OBLIGACI&#211;N MATERIAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="LEY DE CALIFORNIA">
+      <data key="d0">2.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="HASTA DONDE PERMITA LA LEGISLACIO&#769;N APLICABLE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="SNAP">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS INDIRECTOS">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="CANVA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="ACUERDO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="CONDICIONES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="NIANTIC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS INCIDENTALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS ESPECIALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS EJEMPLARIZANTES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="DA&#209;OS CONSECUENTES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="USUARIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="RECLAMO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="HONORARIOS DE ABOGADOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD" target="COSTAS PROCESALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TINDER, LLC" target="DALLAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 14.2" target="CONDITIONS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NEW YORK" target="VIMEO.COM, INC.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDITIONS" target="LAWS OF THE REPUBLIC OF CHINA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDITIONS" target="YAHOO AUSTRALIA PTY LTD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDITIONS" target="YAHOO INC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JUICIO" target="MEDIADOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE">
+      <data key="d0">18.0</data>
+    </edge>
+    <edge source="AAA" target="815 ILCS 414/1.5(C)">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="WWW.ADR.ORG">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="AAA" target="1-800-778-7879">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE DE CONSUMO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE PARA CONSUMIDORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE COMERCIAL DE LA AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS PARA SOLUCI&#211;N DE CONTROVERSIAS DEL CENTRO INTERNACIONAL DE LA AAA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AAA" target="WWW.ICDR.ORG">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="AAA" target="GASTOS DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AAA" target="ADR.ORG">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AAA" target="NORMAS Y PROCEDIMIENTOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="N/A">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE VIGENTE PARA CONSUMIDORES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AAA" target="REGLAS DE ARBITRAJE VIGENTE DE LA AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="CUOTAS Y GASTOS DEL ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AAA" target="NORMAS DE ARBITRAJE DEL CONSUMIDOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AAA" target="ADR">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AAA" target="ARBITRACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AAA" target="INSTRUCCIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="CONDICIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="CONDADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="CARGOS DE EXPEDIENTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="CARGOS ADMINISTRATIVOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="HONORARIOS DEL &#193;RBITRO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE ARBITRAJE" target="APARTADO">
+      <data key="d0">13.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="LEGISLACI&#211;N LOCAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="RELACI&#211;N">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="MODIFICACI&#211;N DE LOS SERVICIOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="YAHOO DO BRASIL INTERNET LTDA.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="LIMITACIONES SOBRE LA RESPONSABILIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="SECCI&#211;N 9">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="YAHOO NEW ZEALAND LIMITED">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="REPUBLIC OF CHINA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONDICIONES" target="ELECCI&#211;N DE LEGISLACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEY DE ARBITRAJE DE EE. UU." target="ARBITRO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRO" target="DISPOSICIONES DE ARBITRAJE OBLIGATORIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRO" target="DOCUMENTOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ARBITRO" target="REGLAS AAA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PLATAFORMA AIRBNB" target="GOOGLE MAPS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="T&#201;RMINOS" target="CONTRATO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="T&#201;RMINOS" target="REPUBLICA DE COREA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="T&#201;RMINOS" target="LEGISLACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO" target="SECCI&#211;N 22.11">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRATO" target="ACUERDOS ANTERIORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO" target="DERECHOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CONTRATO" target="RECURSO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO" target="REFERENCIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRATO" target="FILIAL">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CONTRATO" target="EDREAMS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRATO" target="PROVEEDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRATO" target="DERECHO DE DESISTIMIENTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTRATO" target="PLATAFORMA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO" target="ELECCI&#211;N DE LEGISLACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRATO" target="PA&#205;SES DESIGNADOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO" target="LINKEDIN IRELAND">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTRATO" target="LEYES DE IRLANDA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 22.11" target="ACUERDO DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DERECHOS" target="PROVEEDOR DE VIAJES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILG LPC PRO" target="NAM">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILG LPC PRO" target="SECCI&#211;N 6.3">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILG LPC PRO" target="PROCESO ALTERNATIVO DE RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ILG LPC PRO" target="CONFIDENCIALIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ACUERDO" target="SECCI&#211;N 14.2.C">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ACUERDO" target="DISPUTA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ACUERDO" target="LEGISLACI&#211;N DEL ESTADO DE ISRAEL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO" target="TRIBUNALES DE TEL AVIV">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ACUERDO" target="ARBITRAJE COLECTIVO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO" target="ACUSACI&#211;N POPULAR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ACUERDO" target="PROCEDIMIENTO REPRESENTATIVO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO" target="ACTIONS DE CLASE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO" target="SECCI&#211;N 11.3">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO" target="RECURSOS Y MECANISMOS DE REPARACI&#211;N">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ACUERDO" target="INFRACCI&#211;N DE DERECHOS DE AUTOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO CANADA CORP" target="CANADA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="YAHOO CANADA CORP" target="YAHOO FINANCE ULC">
+      <data key="d0">13.0</data>
+    </edge>
+    <edge source="YAHOO CANADA CORP" target="LEGAL AGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LINKEDIN" target="AFILIADOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LINKEDIN" target="DUBL&#205;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LINKEDIN" target="TERRITORIOS LOCALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LINKEDIN" target="SECCI&#211;N 4">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LINKEDIN" target="ACUERDO POR ESCRITO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GASTOS TOTALES ABONADOS O PENDIENTES" target="PLAZO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="YOUTUBE" target="RECLAMO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RECLAMO" target="IMPORTE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RECLAMO" target="DISPUTA(S)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RECLAMO" target="PLAZO DE UN A&#209;O">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RECLAMO" target="DA&#209;O">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RECLAMO" target="PERJUICIO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RECLAMO" target="PERDIDA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RECLAMO" target="AVISO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRIPADVISOR" target="INFORMACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRIPADVISOR" target="SITIOS Y APLICACIONES DE TERCEROS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFORMACI&#211;N" target="ERRORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ILG LPC DEFAULT" target="CYBER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ILG LPC DEFAULT" target="OTROS EVENTOS DE PROMOCI&#211;N">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ILG LPC DEFAULT" target="RAPPI">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ILG LPC DEFAULT" target="FITBIT">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROVEEDOR DE VIAJES" target="T&#218;">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROVEEDOR DE VIAJES" target="ACUERDO DE VIAJE VINCULADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROVEEDOR DE VIAJES" target="SKYSCANNER">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="T&#218;" target="DATOS DE TARJETA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="T&#218;" target="GASTO DE GESTI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="T&#218;" target="FITBIT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SECTION 22" target="ARBITRATION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRATION" target="WHATSAPP">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRATION" target="DISPUTE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ARBITRATION" target="SIXTY (60) DAYS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N OBLIGATORIA" target="LEY DEL [ESTADO O PA&#205;S CORRESPONDIENTE SEG&#218;N SE DESCRIBE EN LA CL&#193;USULA 6.1">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N OBLIGATORIA" target="CL&#193;USULA 6.1">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CANVA PTY LTD" target="REINO UNIDO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="LEY DE SERVICIOS DIGITALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="CONTRATO DE SERVICIOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="TERMINOS DE SERVICIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="NIANTIC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="LEGISLACI&#211;N LOCAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="CANVA UK OPERATIONS LTD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REINO UNIDO" target="LEGAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="110 KIPPAX ST, SURRY HILLS, NSW 2010, AUSTRALIA" target="LEGAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGAL" target="33-35 HOXTON SQUARE, LONDON N1 6NN">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LAS PARTES" target="DISPOSICI&#211;N OBLIGATORIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LAS PARTES" target="RESOLUCI&#211;N DE CONFLICTOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPOSICI&#211;N OBLIGATORIA" target="JUICIO POR JURADO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CONDADO DE SANTA CLARA" target="TRIBUNALES ESTATALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="DISPUTAS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="AIRBNB PAGOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="CL&#193;USULA 22">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="DIVISIBILIDAD">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="DISTRIBUCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="RENUNCIA A ACCIONES COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="FITBIT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="EXCEPCIONES AL ACUERDO DE ARBITRAJE">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="DISPUTA">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="REGLAS DE ARBITRAJE PARA CONSUMIDORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="MODIFICACIONES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="SECCI&#211;N 18.C">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="RECLAMACIONES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="RENUNCIAR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="VIMEO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="PRIVACIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE ARBITRAJE" target="SECCI&#211;N 2">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="WHATSAPP">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="TRIBUNAL DE RECLAMACIONES MENORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="ESTADOSUNIDOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="LEGISLACI&#211;N DE INGLATERRA Y GALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="&#211;RGANOS JUDICIALES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="LEY DE TU PA&#205;S DE RESIDENCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="DISPOSICI&#211;N DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="LEYES DEL ESTADO DE NUEVA YORK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTAS" target="DETERMINACI&#211;N JUDICIAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="FITBIT LLC" target="LEGAL DEPARTMENT">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="FITBIT LLC" target="MOUNTAIN VIEW, CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FITBIT LLC" target="U.S.A.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEGAL DEPARTMENT" target="VIMEO.COM, INC.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEGAL DEPARTMENT" target="AVISOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEGAL DEPARTMENT" target="ROVIO ENTERTAINMENT CORPORATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FAR 52.227-19" target="REGULACI&#211;N DE ADQUISICIONES FEDERALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGULACI&#211;N DE ADQUISICIONES FEDERALES" target="SOFTWARE INFORM&#193;TICO COMERCIAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SANTA CLARA" target="ESTADO DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SANTA CLARA" target="OPCI&#211;N DE TRIBUNAL DE INSTANCIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="JURISDICTION" target="EE. UU.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JURISDICTION" target="ESTADOS UNIDOS DE AM&#201;RICA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MEDIDAS CAUTELARES" target="BOX">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="MEDIDAS CAUTELARES" target="EXCEPCIONES AL ACUERDO DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REQUERIMIENTO" target="CONFLICT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONFLICT" target="TERCEROS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NAM" target="REGLAS DE SOLICITUDES EN MASA DE NAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NAM" target="ARBITRACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NAM" target="INSTRUCCIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PER&#205;ODO DE RESOLUCI&#211;N INFORMAL" target="NOTIFICACI&#211;N DE DISPUTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PER&#205;ODO DE RESOLUCI&#211;N INFORMAL" target="PROCEDIMIENTO FORMAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="S&#195;O PAULO" target="CLAUSULA NO APLICABLE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TRIBUNALES ESTATALES Y FEDERALES DE S&#195;O PAULO" target="EXCLUSIVO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JUICIO POR JURADO" target="RENUNCIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="COSTOS DEL ARBITRAJE" target="REGLAS DE ADR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 14.2.C" target="RENUNCIA DE LA DEMANDA COLECTIVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RENUNCIA DE LA DEMANDA COLECTIVA" target="DISPUTA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="CONSUMIDOR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="LEY DE SERVICIOS DIGITALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="PLATAFORMA EUROPEA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="PLATAFORMA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA DE LA COMISI&#211;N EUROPEA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="JUNTA EUROPEA DE SERVICIOS DIGITALES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="ESTADO MIEMBRO DE LA UNI&#211;N EUROPEA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="REGLAMENTO 1107/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="METODOS ALTERNATIVOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="DSA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="TRIBUNALES DEL PA&#205;S DE RESIDENCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="REGLAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="EUROPA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="EDAD M&#205;NIMA DE 16 A&#209;OS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="REGULAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="UNI&#211;N EUROPEA" target="ACCIDENTE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONSUMIDOR" target="PLAZO DE CANCELACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONSUMIDOR" target="USUARIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONSUMIDOR" target="REGULACIONES LEGALES OBLIGATORIAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NIANTIC" target="NIANTIC INTERNATIONAL LIMITED">
+      <data key="d0">20.0</data>
+    </edge>
+    <edge source="NIANTIC" target="LEGISLACI&#211;N APLICABLE">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="NIANTIC" target="REGLAMENTO DE LA AAA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NIANTIC" target="REGLAMENTO FEDERAL DEL PROCEDIMIENTO CIVIL 11(B)">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="NIANTIC" target="PROHIBICI&#211;N DE ACCESO A JUSTICIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NIANTIC" target="SERVICIOS DE TERCEROS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NIANTIC" target="EVENTO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N APLICABLE" target="RESPONSABILIDAD TOTAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N APLICABLE" target="WHATSAPP">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N APLICABLE" target="DISPUTA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N APLICABLE" target="RESOLUCI&#211;N DE CONTROVERSIAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD TOTAL" target="D&#211;LARES ESTADOUNIDENSES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RESPONSABILIDAD TOTAL" target="LIBRAS ESTERLINAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="PARTES" target="DANOS Y PERJUICIOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PARTES" target="NEGLIGENCIA LEVE">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="PARTES" target="RENUNCIA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PARTES" target="VISTA PROBATORIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PARTES" target="10 D&#205;AS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="PARTES" target="REBELL&#205;A">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PARTES" target="RECLAMO DE PRIVACIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PARTES" target="OFERTA DE ACUERDO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PARTES" target="OFERTAS DE RESOLUCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PARTES" target="LEY ALEMANA DE RESPONSABILIDAD POR PRODUCTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DANOS Y PERJUICIOS" target="BIENES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N LOCAL" target="UE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N LOCAL" target="EEE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N LOCAL" target="SUIZA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CORTANA" target="APLICACIONES Y SERVICIOS DE TERCEROS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CORTANA" target="SECCI&#211;N 5">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="APLICACIONES Y SERVICIOS DE TERCEROS" target="ORGANIZATION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="FITBIT" target="GASTOS DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FITBIT" target="FITBIT PAY">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="FITBIT" target="T&#201;RMINOS DEL BANCO">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="FITBIT" target="SERVICIOS DE TERCEROS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FITBIT" target="TERMINOS Y LA POL&#205;TICA DE PRIVACIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FITBIT" target="TERMINOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JAP&#193;N" target="ELECCI&#211;N DE LEGISLACI&#211;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ELECCI&#211;N DE LEGISLACI&#211;N" target="RELACI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DISPOSICIONES DE ARBITRAJE OBLIGATORIO" target="EXCEPCIONES AL ACUERDO DE ARBITRAR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TERMINOS" target="APLICA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TERMINOS" target="REGLAS DE ARBITRAJE VIGENTE PARA CONSUMIDORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="26.3" target="NO RENUNCIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="POL&#205;TICA DE PRIVACIDAD" target="ACUERDO DE USUARIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISO SOBRE ARBITRAJE" target="PROHIBICI&#211;N DE ACCESO A JUSTICIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AVISO SOBRE ARBITRAJE" target="CL&#193;USULA ARBITRAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="CL&#193;USULA ARBITRAL">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="DUBL&#205;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="ACCESO A JUSTICIA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="META PLATFORMS, INC.">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="TERMINACI&#211;N DE CONDICIONES DE SERVICIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROHIBICI&#211;N DE ACCESO A JUSTICIA" target="JUS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EDREAMS" target="ACTS AS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="PROVEEDOR" target="ACQUIRES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PLAZO DE RECLAMO" target="LEYES LOCALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 6.2" target="ACCIONES COLECTIVAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RECLAMACIONES FR&#205;VOLAS O IMPROCEDENTES" target="PARTES DEMANDADAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RESOLUCI&#211;N DE DISPUTAS" target="FORO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESOLUCI&#211;N DE DISPUTAS" target="CENTRO DE AYUDA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TRIBUNAL DE ASUNTOS MENORES" target="DISPUTA(S)">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TRIBUNAL DE ASUNTOS MENORES" target="DISPUTA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTA(S)" target="JURADO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DISPUTA(S)" target="DEMANDAS COLECTIVAS O REPRESETATIVAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="BADOO" target="COMISI&#211;N EUROPEA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="BADOO" target="GRUPO BADOO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="BADOO" target="ANTECEDENTES PENALES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="BADOO" target="REGISTRO DE DELINCUENTES SEXUALES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="COMISI&#211;N EUROPEA" target="JUNTA EUROPEA DE SERVICIOS DIGITALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MICROSOFT CORPORATION" target="JURISDICCI&#211;N EXCLUSIVA DE IRLANDA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="MICROSOFT CORPORATION" target="LEGISLACI&#211;N DE TAIW&#193;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="MICROSOFT CORPORATION" target="MICROSOFT IRELAND OPERATIONS LIMITED">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N EXCLUSIVA DE IRLANDA" target="MICROSOFT IRELAND OPERATIONS LIMITED">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="JURISDICCI&#211;N EXCLUSIVA DE IRLANDA" target="LEGISLACI&#211;N DE IRLANDA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MICROSOFT IRELAND OPERATIONS LIMITED" target="MICROSOFT REGIONAL SALES PTE LTD.">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ATT" target="ATOL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ATT" target="SISTEMA ATOL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="APPLE" target="CLAUSULA 8A">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="APPLE" target="INDEMNIZACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="APPLE" target="SUBSCRITORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CLAUSULA 8A" target="GOOGLE PLAY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO! DIGITAL MARKETING CO., LTD." target="TAIWAN">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="YAHOO! DIGITAL MARKETING CO., LTD." target="REPUBLIC OF CHINA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TAIWAN" target="REPUBLIC OF CHINA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TAIWAN" target="YAHOO! TAIWAN HOLDINGS LIMITED">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TAIWAN" target="TRIBUNAL DEL DISTRITO DE TAIPEI">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REPUBLICA CHECA" target="AUTORIDAD DE INSPECCI&#211;N COMERCIAL CHECA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AUTORIDAD DE INSPECCI&#211;N COMERCIAL CHECA" target="ADR DEPARTAMENTO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AUTORIDAD DE INSPECCI&#211;N COMERCIAL CHECA" target="CENTRAL INSPECTORATE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="&#352;T&#282;P&#193;NSK&#193; 15" target="PRAGA 2">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ADR@COI.CZ" target="HTTPS://WWW.COI.CZ/INFORMACE-O-ADR/">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="YAHOO AUSTRALIA PTY LTD" target="NEW SOUTH WALES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NEW SOUTH WALES" target="LAWS OF NEW SOUTH WALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="USA" target="YAHOO INC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="USA" target="LAWS OF THE UNITED STATES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AIRBNB.ORG" target="SECCI&#211;N 501(C)(3)">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="AIRBNB.ORG" target="C&#211;DIGO DE RENTAS INTERNAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="DISPUTA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="CANAD&#193;">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="DISPOSICI&#211;N DE ARBITRAJE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="NO SE ADMITEN DEMANDAS COLECTIVAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="UTILIZAS NUESTROS SERVICIOS BAJO TU PROPIO RIESGO">
+      <data key="d0">14.0</data>
+    </edge>
+    <edge source="WHATSAPP" target="META PLATFORMS, INC.">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="DISPUTA" target="JUEGO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTA" target="CONFLICTOS EXCLUIDOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTA" target="SECCI&#211;N RESOLUCI&#211;N DE DISPUTAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTA" target="PROPIEDAD INTELECTUAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTA" target="PROPIEDAD INDUSTRIAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DISPUTA" target="DERECHOS DE PRIVACIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTA" target="DERECHOS DE PUBLICIDAD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTA" target="TIEMPO L&#205;MITE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPUTA" target="OPCI&#211;N DE TRIBUNAL DE INSTANCIA">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CANAD&#193;" target="NO SE ADMITEN DEMANDAS COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CANAD&#193;" target="ACTUALIZACIONES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CANAD&#193;" target="PROVINCIAS Y TERRITORIOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CANAD&#193;" target="LEY VIGENTE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SNAP" target="TERCEROS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SNAP" target="SNAP INC.">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TERCEROS" target="PLATAFORMA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="TERCEROS" target="CONFIDENCIALIDAD">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="REGLAMENTOS" target="RECLAMACIONES COORDINADAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAMENTOS" target="PROVEEDOR DEL SERVICIO DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAMENTOS" target="MODIFICACI&#211;N DE LOS SERVICIOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="NIANTIC LABS" target="RESOLUCI&#211;N DE CONTROVERSIAS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="DERECHO DE DESISTIMIENTO" target="BILLETES ELECTR&#211;NICOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PLATAFORMA" target="RESERVA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PLATAFORMA" target="USUARIO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="IVA" target="FACTURA DEL IVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="META" target="TRIBUNAL DE DISTRITO DE LOS ESTADOS UNIDOS PARA EL DISTRITO NORTE DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="META" target="TRIBUNAL ESTATAL EN EL CONDADO DE SAN MATEO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="STARBUCKS COFFEE CHILE S.A." target="CONTENIDO DE TERCERAS PARTES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="STARBUCKS COFFEE CHILE S.A." target="USTED">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="STARBUCKS COFFEE CHILE S.A." target="TERMINOS Y CONDICIONES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="USTED" target="ACEPTA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="USTED" target="RECONOCE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TERMINOS Y CONDICIONES" target="AEROL&#205;NEA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TERMINOS Y CONDICIONES" target="TARIFA A&#201;REA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TERMINOS Y CONDICIONES" target="LEGISLACI&#211;N DE LA REP&#218;BLICA DE COREA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AVISO DE DISPUTA" target="EBAY INC.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N DE INGLATERRA Y GALES" target="&#211;RGANOS JUDICIALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EBAY INC." target="LITIGATION DEPARTMENT">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="EBAY INC." target="CONDITIONS OF USE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AVISO" target="RECLAMOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISO" target="DIRECCI&#211;N F&#205;SICA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RECLAMOS" target="LEYES DEL ESTADO DE NUEVA YORK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CHINA" target="COMISI&#211;N INTERNACIONAL CHINA DE ARBITRAJE COMERCIAL Y ECON&#211;MICO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="COMISI&#211;N INTERNACIONAL CHINA DE ARBITRAJE COMERCIAL Y ECON&#211;MICO" target="NORMAS DE ARBITRAJE DE LA CIETAC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PEK&#205;N" target="SEDE DEL ARBITRAJE">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 23.1" target="LEGISLACI&#211;N DE CHINA">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="JAMS" target="REGLAS Y PROCEDIMIENTOS DE ARBITRAJE SIMPLIFICADO DE JAM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAS Y PROCEDIMIENTOS DE ARBITRAJE SIMPLIFICADO DE JAM" target="EST&#193;NDARES M&#205;NIMOS DEL CONSUMIDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RENUNCIA" target="DISPOSICI&#211;N DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAMENTO DE LA AAA" target="PROCEDIMIENTOS SUPLEMENTARIOS PARA CONTROVERSIAS RELATIVAS AL CONSUMIDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAMENTO DE LA AAA" target="HONORARIOS DEL &#193;RBITRO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SKYSCANNER" target="PROVEEDORES DE VIAJES INDEPENDIENTES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SKYSCANNER" target="ILG LPC INT">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SKYSCANNER" target="DMCA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY DEL LUGAR DE INCORPORACI&#211;N DE YAHOO" target="ENTIDAD DE YAHOO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GOOGLE" target="GOOGLE MAPS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="GOOGLE" target="P&#201;RDIDAS INDIRECTAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GOOGLE MAPS" target="TERMINOS DE SERVICIO DE GOOGLE MAPS/GOOGLE EARTH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N DE TAIW&#193;N" target="MICROSOFT TAIWAN CORP.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N DE TAIW&#193;N" target="TRIBUNAL DE DISTRITO DE TAIP&#201;I">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N DE TAIW&#193;N" target="CONTRACT">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EMPRESA" target="VINCULA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EDREAMS LLC" target="VENDEDOR DE VIAJES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EDREAMS LLC" target="PROSUR GROUP">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="FEDERAL ARBITRATION ACT" target="REGLA FEDERAL DE ARBITRAJE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FEDERAL ARBITRATION ACT" target="REGLAS DE ADR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGLAS DE ADR" target="ADR SERVICES, INC.">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REGLAS DE ADR" target="MODIFICACI&#211;N A LAS REGLAS DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAS DE ADR" target="WWW.ADRSERVICES.COM">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="HONORARIOS DE ARBITRAJE" target="COSTES PROCESALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="SITIO DE MICROSOFT">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="VIRUS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="GUSANOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="TROYANOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="ELEMENTOS DESTRUCTIVOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="V&#205;NCULOS" target="PRUDENCIAS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SITIO DE MICROSOFT" target="CONTENIDO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTENIDO" target="CONDUCT">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CONTENIDO" target="SITIOS Y APLICACIONES DE TERCEROS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTENIDO" target="SERVICIO DE SPOTIFY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTENIDO" target="SEGA CORPORATION">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="V&#205;NCULO" target="DICHOS SITIOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISOS" target="VIMEO.COM, INC.">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LEY JAPONESA RELATIVA A ALOJAMIENTO EN CASAS" target="NOTIFICACI&#211;N EN JAP&#211;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CANVA" target="RENUNCIA AL JUICIO CON JURADO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CANVA" target="DEMANDAS COLECTIVAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="RECLAMACIONES" target="RECLAMACIONES COLECTIVAS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RECLAMACIONES" target="RECLAMACIONES REPRESENTATIVAS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="JUZGADO" target="NORTE DE CALIFORNIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISO DE PRIVACIDAD" target="USTED COMPRENDE Y ACEPTA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DISPOSICIONES DE LIMITACI&#211;N DE RESPONSABILIDAD" target="CL&#193;USULA 14">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PLATAFORMA DE RESOLUCI&#211;N DE LITIGIOS EN L&#205;NEA" target="EUROPEAN COMMISSION">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="YAHOO DO BRASIL INTERNET LTDA." target="AV. PRESIDENTE JUSCELINO KUBITSCHEK">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVICIO" target="NUESTRA RESPONSABILIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="AMAZON" target="ESTADO DE WASHINGTON">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AMAZON" target="LEY FEDERAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEY FEDERAL" target="CONDITIONS DE USO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RAPPI" target="USUARIO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="RAPPIREPARTIDOR">
+      <data key="d0">25.0</data>
+    </edge>
+    <edge source="RAPPI" target="ARGENTINA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="COLOMBIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="COSTA RICA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="ECUADOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="M&#201;XICO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="PER&#218;">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RAPPI" target="URUGUAY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RAPPI" target="USUARIO/CONSUMIDOR">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="RAPPI" target="RAPPIFAVOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="USUARIO" target="SERVICIOS DE TERCEROS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RAPPIREPARTIDOR" target="USUARIO/CONSUMIDOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RAPPIREPARTIDOR" target="LEY 21.431">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REPUBLICA DE INDONESIA" target="CONDICIONES ESPEC&#205;FICAS PARA RESIDENTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEY FEDERAL DE ESTADOS UNIDOS" target="ENTIDAD GUBERNAMENTAL FEDERAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEY DEL ESTADO DE CALIFORNIA" target="ENTIDAD GUBERNAMENTAL ESTATAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY DEL ESTADO DE CALIFORNIA" target="ESTADO DE CALIFORNIA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LEY DEL ESTADO DE CALIFORNIA" target="LEY DE ESTADOS UNIDOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NORMAS DE ARBITRAJE DEL CONSUMIDOR DE LA AAA" target="REGLAS DEL FORO ARBITRAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="WWW.ADR.ORG" target="NORMAS DE ARBITRAJE DEL CONSUMIDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="WWW.ADR.ORG" target="ADR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="1-800-778-7879" target="NORMAS DE ARBITRAJE DEL CONSUMIDOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROVEEDOR DE ARBITRAJE" target="OFERTA DE SENTENCIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROVEEDOR DE ARBITRAJE" target="DOCUMENTOS NECESARIOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="OFERTA DE SENTENCIA" target="LAUDO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LAUDO" target="AUDIENCIA DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LAUDO" target="DECISI&#211;N DEL &#193;RBITRO">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="LAUDO" target="LIMITACI&#211;N DE RESPONSABILIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LAUDO" target="HONORARIOS Y GASTOS DE ABOGADOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS DE SOLICITUDES EN MASA DE NAM" target="CL&#193;USULA DE RESOLUCI&#211;N DE CONFLICTOS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RESERVA" target="DESPEGAR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RESERVA" target="PROVEEDOR FINAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESERVA" target="PRECIOS ERR&#211;NEOS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="NEW JERSEY" target="SECCI&#211;N 9">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LIMITACIONES SOBRE LA RESPONSABILIDAD" target="AGRAVIOS INTENCIONALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LIMITACIONES SOBRE LA RESPONSABILIDAD" target="ACTOS VOLUNTARIOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LIMITACIONES SOBRE LA RESPONSABILIDAD" target="NEGLIGENCIA GRAVE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LIMITACIONES SOBRE LA RESPONSABILIDAD" target="INFRACCI&#211;N DE UN DEBER IMPUESTO POR LA LEY">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="TRIBUNALES ESTATALES" target="CL&#193;USULA 15">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="300% DE LAS PAUTAS FEDERALES DE POBREZA" target="RENUNCIA A HONORARIOS Y COSTOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="RENUNCIA A HONORARIOS Y COSTOS" target="DECLARACI&#211;N BAJO JURAMENTO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DIVISI&#211;N DE SERVICIOS DEL CONSUMIDOR" target="DEPARTAMENTO DE ASUNTOS DEL CONSUMIDOR">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DEPARTAMENTO DE ASUNTOS DEL CONSUMIDOR" target="400 R STREET, SACRAMENTO, CA 95814">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="DEPARTAMENTO DE ASUNTOS DEL CONSUMIDOR" target="(800) 952-5210">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="YAHOO INDIA" target="GRIEVANCE OFFICER">
+      <data key="d0">17.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="APLICACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="USD 1,00">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="RECLAMOS POR INCUMPLIMIENTO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="RESPONSABILIDAD OBJETIVA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="P&#201;RDIDA DE BENEFICIOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="P&#201;RDIDA DE INGRESOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DA&#209;OS" target="P&#201;RDIDA DE DATOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE VIAJE VINCULADO" target="REGLAMENTO DE VIAJES COMBINADOS DE LA UE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE VIAJE VINCULADO" target="PROTECCIONES AL CONSUMIDOR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 512(C)" target="INFRACCI&#211;N">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 512(C)" target="NOTIFICACI&#211;N DE RECLAMOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 512(C)" target="C&#211;DIGO DE LOS ESTADOS UNIDOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N" target="C&#211;DIGO DE LOS ESTADOS UNIDOS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EMPRESAS VINCULADAS" target="DAN&#771;OS Y PERJUICIOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="UTAH" target="CONDITIONS DE USO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="RESOLUCI&#211;N DE CONFLICTOS" target="PLAZOS DE PRESCRIPCI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NOTICE OF DISPUTE" target="ARBITRATION FILING">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="ARBITRATION FILING" target="1601 WILLOW RD. MENLO PARK CA 94025">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SUECIA" target="TRIBUNALES DE SUECIA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SUECIA" target="TODOS LOS DEM&#193;S PA&#205;SES Y REGIONES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SPOTIFY" target="SERVICIO DE SPOTIFY">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SPOTIFY" target="MALWARE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SPOTIFY" target="JUEZ">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SPOTIFY" target="ABOGADOS DE SPOTIFY">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="HONORARIOS DEL &#193;RBITRO" target="TARIFA INICIAL DE SOLICITUD DE ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="FDA" target="PRUEBA DE ADN DE SALUD DE MYHERITAGE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="FDA" target="AGENCIA DE ALIMENTOS Y MEDICAMENTOS">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="ILG LPC" target="TERMINOS DE SERVICIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ILG LPC" target="WILD CYBER">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TERMINOS DE SERVICIO" target="AUSTRALIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="VIMEO" target="SUPREMA CORTE DEL ESTADO DE NUEVA YORK">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIMEO" target="CORTE FEDERAL DE ESTADOS UNIDOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="VIMEO" target="LEY DE PORTABILIDAD Y RESPONSABILIDAD DEL SEGURO M&#201;DICO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="VIMEO" target="LEY GRAMM-LEACH-BLILEY">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="VIMEO" target="LEYES APLICABLES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SUPREMA CORTE DEL ESTADO DE NUEVA YORK" target="ELECCI&#211;N DE LA SEDE DEL LITIGIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CORTE FEDERAL DE ESTADOS UNIDOS" target="ELECCI&#211;N DE LA SEDE DEL LITIGIO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TENPO" target="PEPE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TENPO" target="PAYPAL">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PAYPAL" target="CUENTA PAYPAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PAYPAL" target="APP TENPO">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AUSTRALIA" target="LEGAL_CONTEXT">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CONSUMIDORES" target="C&#211;DIGO DE PROTECCI&#211;N DEL CONSUMIDOR DE TELECOMUNICACIONES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONSUMIDORES" target="DEFENSOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONSUMIDORES" target="REPRESENTANTE AUTORIZADO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="POL&#205;TICAS" target="T&#201;RMINOS LEGALES ADICIONALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N A LA PROPIEDAD INTELECTUAL" target="DERECHOS DE MARCA REGISTRADA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONFIDENCIALIDAD" target="MEDIACI&#211;N">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONFIDENCIALIDAD" target="LAUDOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CORRESPONDENCIA" target="PEDIDOS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="ROVIO ENTERTAINMENT CORPORATION" target="RENUNCIA AL ARBITRAJE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="RENUNCIA AL ARBITRAJE" target="DIRECCI&#211;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="DIRECCI&#211;N" target="4231 BALBOA AVENUE, #1008, SAN DIEGO, CA 92117">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DIRECCI&#211;N" target="LEGALNOTICE@EVERNOTE.COM">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DIRECCI&#211;N" target="INFRACCI&#211;N DE DERECHOS DE AUTOR">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="WHATSAPP LLC" target="MENLO PARK">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SECCI&#211;N 5.2" target="CONTENIDO PROHIBIDO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONTENIDO PROHIBIDO" target="REPRODUCTOR DE VIDEOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS INDIRECTOS" target="DA&#209;OS INCIDENTALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS INDIRECTOS" target="DA&#209;OS ESPECIALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS INDIRECTOS" target="DA&#209;OS CONSECUENTES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DA&#209;OS INDIRECTOS" target="DA&#209;OS M&#218;LTIPLES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="USO" target="EMPLOYEE ASSISTANCE PROGRAM">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N" target="P&#193;GINA WEB">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="EBAY.IN" target="CONDITIONS DE USO DE EBAY.IN">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SUBT&#205;TULOS" target="REGLAS Y REGLAMENTACIONES DE LA COMISI&#211;N FEDERAL DE COMUNICACIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAS Y REGLAMENTACIONES DE LA COMISI&#211;N FEDERAL DE COMUNICACIONES" target="HTTPS://WWW.YAHOOINC.COM/ACCESSIBILITY/CAPTIONING/">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="QUEBEC" target="NO APLICABLE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="NO APLICABLE" target="ONTARIO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRIBUNALES" target="APELACIONES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REPUBLICA DE COREA" target="CONDICIONES ESPEC&#205;FICAS PARA LOS RESIDENTES DE LA REP&#218;BLICA DE COREA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="REPUBLICA DE COREA" target="LEGISLACION LOCAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REPUBLICA DE COREA" target="LEY DE COMERCIO ELECTR&#211;NICO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY DE OREG&#211;N" target="CONVENCI&#211;N DE 1980 DE LA ONU">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="PROTEGER LOS DATOS" target="SEGURIDAD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EDEARMS" target="CONTRATO DE TRANSPORTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONTRATO DE TRANSPORTE" target="AEROL&#205;NEA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="AEROL&#205;NEA" target="SERVICIOS AUXILIARES">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="VUELO" target="DIFERENTES NORMAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="TRIBUNALES FEDERALES" target="CL&#193;USULA 15">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="WHATSAPP IRELAND LIMITED" target="REGI&#211;N EUROPEA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MICROSOFT REGIONAL SALES PTE LTD." target="MICROSOFT PTY LTD">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="MICROSOFT PTY LTD" target="MICROSOFT NEW ZEALAND LIMITED">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="SINGAPORE INTERNATIONAL ARBITRATION CENTRE" target="REGLAS DE ARBITRAJE DEL CENTRO INTERNACIONAL DE ARBITRAJE DE SINGAPUR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="WALE" target="SINGAPUR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SITIOS Y APLICACIONES DE TERCEROS" target="EMPRESAS DE TRIPADVISOR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="EMPRESAS DE TRIPADVISOR" target="SITIOS WEB">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="GASTOS DE ARBITRAJE" target="HONORARIOS DE SUS ABOGADOS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PWNHEALTH" target="MYHERITAGE">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PWNHEALTH" target="INFORMES DE SALUD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="INFORMES DE ADN DE SALUD">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="PRECIOS">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="P&#193;GINA WEB">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="EVGENY INBERG">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="EUROPEAN UNION">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="MYHERITAGE" target="DSA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INFORMES DE ADN DE SALUD" target="CUESTIONARIO DE SALUD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CL&#193;USULA 15" target="PROCEDIMIENTO JUDICIAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="PROCEDIMIENTO JUDICIAL" target="CL&#193;USULA 17">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PRUEBA DE ARBITRAJE" target="PRUEBAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONFLICTOS" target="ARBITRAJE VINCULANTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONFLICTOS" target="RENUNCIA A DEMANDAS COLECTIVAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="&#193;RBITRO DE LA RECLAMACI&#211;N" target="VISTA PROBATORIA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="APP STORE DE APPLE" target="ACUERDO DE LICENCIA DE USUARIO FINAL DE LA APLICACI&#211;N">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="CONDICIONES ADICIONALES" target="USUARIOS ALEMANES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TRIBUNALES DE RECLAMOS MENORES" target="REGLA 1">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="LEY DE INMIGRACI&#211;N Y NACIONALIDAD" target="SECCI&#211;N 219">
+      <data key="d0">16.0</data>
+    </edge>
+    <edge source="ORGANIZACI&#211;N TERRORISTA EXTRANJERA" target="USTED ACEPTA NO UTILIZAR LOS SERVICIOS PARA PROPORCIONAR RESPALDO MATERIAL O RECURSOS">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROVINCIAS Y TERRITORIOS" target="LIMITACI&#211;N DE LA RESPONSABILIDAD">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="LEY VIGENTE" target="LIMITACI&#211;N DE LA RESPONSABILIDAD">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LCIA" target="NORMAS DE ARBITRAJE DEL TRIBUNAL DE ARBITRAJE INTERNACIONAL DE LONDRES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="NORMAS DE ARBITRAJE DEL TRIBUNAL DE ARBITRAJE INTERNACIONAL DE LONDRES" target="LONDRES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="PROCEDIMIENTO FORMAL" target="PR&#211;RROGA DE COMPETENCIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="&#193;MSTERDAM" target="LEGISLACI&#211;N LOCAL OBLIGATORIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N LOCAL OBLIGATORIA" target="INGLATERRA Y GALES">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="COMPRADOR" target="ETIQUETA DE ENV&#205;O">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ETIQUETA DE ENV&#205;O" target="EMPRESA DE TRANSPORTE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="HIPERV&#205;NCULOS" target="SITIOS WEB">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="REGLAMENTO 1107/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" target="DERECHOS DE LAS PERSONAS CON DISCAPACIDAD Y LAS PERSONAS CON MOVILIDAD REDUCIDA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGLAMENTO 1107/2006 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" target="PERSONAS CON DISCAPACIDAD O MOVILIDAD REDUCIDA">
+      <data key="d0">10.0</data>
+    </edge>
+    <edge source="DECLARACI&#211;N" target="RENUNCIAR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="DECLARACI&#211;N" target="INFRACCI&#211;N DE DERECHOS DE AUTOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ACUERDO DE USUARIO" target="POL&#205;TICAS INCORPORADAS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="N/A" target="N/A">
+      <data key="d0">15.0</data>
+    </edge>
+    <edge source="SERVICIO DE SPOTIFY" target="FUNCIONES DE FILTRADO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="LEY PERTINENTE" target="APLICABLE">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="P&#193;GINA WEB" target="ENLACES A P&#193;GINAS WEB DE TERCEROS">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="JAPAN" target="BOUNDLESS INC.">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="METODOS ALTERNATIVOS" target="HTTP://EC.EUROPA.EU/CONSUMERS/ODR/">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DESPEGAR" target="PROVEEDOR FINAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DSA" target="ART&#205;CULO 24(2)">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CSC LAWYERS INCORPORATING SERVICE" target="SACRAMENTO, CALIFORNIA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="NOTIFICACI&#211;N PREVIA A LA CONTROVERSIA" target="SECCI&#211;N 22.6">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N DE DERECHOS DE AUTOR" target="DMCA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N DE DERECHOS DE AUTOR" target="URL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N DE DERECHOS DE AUTOR" target="N&#218;MERO DE TEL&#201;FONO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N DE DERECHOS DE AUTOR" target="CORREO ELECTR&#211;NICO">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="INFRACCI&#211;N DE DERECHOS DE AUTOR" target="FIRMA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="SINGAPORE" target="CL&#193;USULA 23.2">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA 23.2" target="SIAC">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CL&#193;USULA 23.2" target="REGLAS DEL SIAC">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CL&#193;USULA 23.2" target="LEY DE SINGAPUR">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="DINAMARCA" target="SUBSCRITORES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="SUBSCRITORES" target="CANCELACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CANCELACI&#211;N" target="AP&#201;NDICE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="CANCELACI&#211;N" target="SUSCRIPTORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="AVISO FIRMADO" target="GASTO ADMINISTRATIVO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDADO DE LOS ESTADOS UNIDOS" target="PROCEDIMIENTOS DE ARBITRAJE">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="PROCEDIMIENTOS DE ARBITRAJE" target="REGLAMENTO DE ARBITRAJE COMERCIAL">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="PROCEDIMIENTOS DE ARBITRAJE" target="PROCEDIMIENTOS COMPLEMENTARIOS PARA CONFLICTOS RELACIONADOS CON EL CONSUMIDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ELECCI&#211;N DE LA LEY" target="LEY FEDERAL DE LOS EE. UU.">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="ELECCI&#211;N DE LA LEY" target="CONVENCI&#211;N DE LAS NACIONES UNIDAS">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="DEMANDAS DE ARBITRAJE" target="PROTOCOLOS ADICIONALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEGISLACI&#211;N BRASILE&#209;A" target="LEYES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ALEMANIA" target="SUSCRIPTORES">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="CONDITIONS OF USE" target="EBAY (UK) LIMITED">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDITIONS OF USE" target="EBAY GMBH">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDITIONS OF USE" target="EBAY CANADA LIMITED">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDITIONS OF USE" target="EBAY SINGAPORE SERVICES PRIVATE LIMITED">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CONDITIONS OF USE" target="EBAY MARKETPLACES GMBH">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="LEY DE COMERCIO ELECTR&#211;NICO" target="DINERO VIRTUAL">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LEY DE COMERCIO ELECTR&#211;NICO" target="BIENES VIRTUALES">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="CERTIFICADO ATOL" target="TITULAR ALTERNATIVO DE LA ATOL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ART&#205;CULO 3(4) DE LA LEY DE SERVICIOS DE PAGO" target="CONTENIDO PRINCIPAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CONTENIDO PRINCIPAL" target="INSTRUMENTO DE PAGO PREPAGADO">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="TRIBUNAL DE RECLAMOS MENORES" target="PROCEDIMIENTO DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="HONORARIOS DE ABOGADOS" target="TARIFA INICIAL DE SOLICITUD DE ARBITRAJE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" target="RESPONSABILIDAD DE LA AEROL&#205;NEA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="SERVICIOS DE TERCEROS" target="REDES DE TEL&#201;FONOS M&#211;VILES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVICIOS DE TERCEROS" target="ZONAS CON COBERTURA INAL&#193;MBRICA">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="SERVICIOS DE TERCEROS" target="INTERNET INAL&#193;MBRICO">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TARIFA INICIAL DE SOLICITUD DE ARBITRAJE" target="TARIFA PARA INICIAR UN JUICIO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="POL&#205;TICA SOBRE CANCELACIONES DE PEDIDOS" target="COMPRADORES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="POL&#205;TICA SOBRE CANCELACIONES DE PEDIDOS" target="VENDEDOR">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="POL&#205;TICA SOBRE CANCELACIONES DE PEDIDOS" target="DEVOLUCI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="EMPLOYEE ASSISTANCE PROGRAM" target="CONTRATACI&#211;N">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CCI" target="REGLAMENTO DE ARBITRAJE DE LA C&#193;MARA DE COMERCIO INTERNACIONAL">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="CCI" target="REGLAMENTO DE MEDIACI&#211;N DE LA CCI">
+      <data key="d0">6.0</data>
+    </edge>
+    <edge source="REGLAMENTO DE ARBITRAJE DE LA C&#193;MARA DE COMERCIO INTERNACIONAL" target="PROCESO EXPEDITO">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGLAMENTO DE ARBITRAJE DE LA C&#193;MARA DE COMERCIO INTERNACIONAL" target="&#193;RBITRO DE EMERGENCIA">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EDAD M&#205;NIMA DE 13 A&#209;OS" target="PA&#205;SES FUERA DE LA UNI&#211;N EUROPEA">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="TERCERAS PARTES" target="SITIO WEB">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="TERCERAS PARTES" target="NO RESPONSABILIDAD">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="ART&#205;CULO 6 (12)" target="DMA">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGULACIONES FEDERALES DE ADQUISICI&#211;N" target="GOBIERNO DE EE. U. S.">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="REGULACIONES FEDERALES DE ADQUISICI&#211;N" target="ART&#205;CULOS COMERCIALES">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="ART&#205;CULOS COMERCIALES" target="48 CFR 2.101">
+      <data key="d0">8.0</data>
+    </edge>
+    <edge source="48 CFR 2.101" target="12.212">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="DE VOLVER DE TU DINERO" target="GASTOS DE ENV&#205;O">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="REGULAMENTO 889/2002 DEL PARLAMENTO EUROPEO Y DEL CONSEJO" target="ACCIDENTE">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="LFA" target="ESTADO DE UTAH">
+      <data key="d0">9.0</data>
+    </edge>
+    <edge source="POL&#205;TICA DE REEMBOLSO" target="POL&#205;TICA CONTRA LA DISCRIMINACI&#211;N">
+      <data key="d0">7.0</data>
+    </edge>
+    <edge source="POL&#205;TICA DE FUERZA MAYOR" target="POL&#205;TICA DE CONTENIDO">
+      <data key="d0">6.0</data>
+    </edge>
+  </graph>
+</graphml>

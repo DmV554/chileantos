@@ -1,0 +1,21 @@
+  name: "Classification - Gray"
+  data_path: "data/chilean_tos/Chilean_Abusive_ToS/classification/Gray.jsonl"
+  options:
+    bfe: "La cláusula atenta contra las exigencias de la buena fe"
+    des reser: "El proveedor se reserva el derecho de modificar unilateralmente el contrato"
+    des det: "El proveedor puede resolver conflictos a través de procesos internos"
+    des lic: "Se otorgan facultades excesivas al proveedor que se extienden post-contrato"
+    des uni: "El proveedor puede cambiar los términos con un aviso previo (menos grave que 'cr')"
+    des def: "El consumidor debe indemnizar al proveedor"
+    des risk: "El consumidor asume riesgos de factores externos o de la operación"
+    des inf: "El proveedor puede compartir información del consumidor con terceros"
+
+  options_extended:
+    bfe: "Cláusulas contra de las exigencias de la buena fe, causen en perjuicio del consumidor"
+    des reser: "Derecho a modificar contrato"
+    des det: "Referencia proceso interno"
+    des lic: "Facultades ilimitadas"
+    des uni: "Cambio de términos sin aviso"
+    des def: "Consumidor indemniza a proveedor"
+    des risk: "Consumidor asume riesgos"
+    des inf: "Información a terceros"

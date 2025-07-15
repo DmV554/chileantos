@@ -1,0 +1,70 @@
+# experiments.yaml
+active_suite: "graphrag_suite"
+
+mlflow_tracking_uri: "http://localhost:5002"
+
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA FEW-SHOT
+# -------------------------------------------------------------
+few_shot_suite:
+  mlflow_experiment_name: "Paper_Replication_FewShot"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/few_shot_chileanTOS.py"
+  num_runs_per_experiment: 1
+  #, "classify_dark", "classify_gray"
+  parameters:
+    tasks: ["illegal"]
+    few_shot_models: ["gemma3:1b"]
+    prompts:
+      - "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_1-shot_prompt.docx"
+      - "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_3-shot_prompt.docx"
+
+#
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA RAG
+# -------------------------------------------------------------
+rag_suite:
+  mlflow_experiment_name: "Paper_Replication_RAG"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/rag_chileanTOS.py"
+  num_runs_per_experiment: 1
+
+  parameters:
+    tasks: ["illegal"]
+    ollama_rag_models: ["gemma3n:e2b"]
+    embedding_models: ["intfloat/multilingual-e5-large"]
+    similarity_top_k: [1,3,5]
+    prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
+
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA GraphRAG
+# -------------------------------------------------------------
+graphrag_suite:
+  mlflow_experiment_name: "Paper_Replication_GraphRAG"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/graphrag_classifier.py"
+  num_runs_per_experiment: 1 # Es determinista, con una corrida basta
+
+  parameters:
+    tasks: ["illegal"]
+    # El modelo de LLM para la síntesis de la respuesta se toma de la config de GraphRAG.
+    # Este parámetro es solo para logging y para que el orquestador itere.
+    ollama_rag_models: ["gpt4.1-nano"] 
+    # El modelo de embedding usado para construir el grafo (solo para logging)
+    embedding_models: ["BAAI/bge-m3"]
+    # Rutas a los proyectos de GraphRAG que se quieren evaluar
+    graphrag_projects: 
+      - "data/04_graphrag/chilean_graphrag_classify_illegal"
+
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA RAG HÍBRIDO
+# -------------------------------------------------------------
+hybrid_rag_suite:
+  mlflow_experiment_name: "Paper_Replication_HybridRAG"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/hybrid_rag.py"
+  num_runs_per_experiment: 1
+
+  parameters:
+    tasks: ["illegal"]
+    ollama_rag_models: ["gemma3:1b", "llama3.2:3b-instruct-q8_0"]
+    prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
+    retriever_top_k: [10, 20]
+    ranker_top_k: [3, 5]
+ 

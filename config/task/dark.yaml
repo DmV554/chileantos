@@ -1,0 +1,19 @@
+
+    name: "Classification - Dark"
+    data_path: "data/chilean_tos/Chilean_Abusive_ToS/classification/Dark.jsonl"
+    options:
+      cr: "Modificación unilateral y arbitraria de los términos del servicio"
+      ter: "Terminación unilateral del servicio sin causa justificada"
+      ch: "Modificación unilateral del precio del servicio"
+      er: "El consumidor asume la responsabilidad por errores administrativos del proveedor"
+      ltd: "Limitación o exención de la responsabilidad del proveedor"
+      nod: "Limitaciones al consumidor para ejercer sus derechos"
+  
+    options_extended:
+      cr: "Modificación unilateral y arbitraria"
+      ter: "Terminación unilateral"
+      ch: "Modificación unilateral precio"
+      er: "Cargo al consumidor por errores administrativos"
+      ltd: "Limitación de responsabilidad"
+      nod: "Limitan ejercicios de derechos"
+

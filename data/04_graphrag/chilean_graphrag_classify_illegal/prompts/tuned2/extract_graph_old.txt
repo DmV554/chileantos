@@ -1,0 +1,88 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [persona, organismo, empresa, dirección, ley, norma, contrato, cláusula, reclamo, procedimiento, regla, jurisdicción, país, ciudad, entidad, servicio, plazo, documento, formulario, notificación, contenido, contenido ilegal, reclamación, reparación, reclamante, parte, tribunal, normativa, normas internas, normas de comunidad, normas de arbitraje]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in Spanish as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into Spanish, just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+Entity_types: [persona, organismo, empresa, dirección, ley, norma, contrato, cláusula, reclamo, procedimiento, regla, jurisdicción, país, ciudad, entidad, servicio, plazo, documento, formulario, notificación, contenido, contenido ilegal, reclamación, reparación, reclamante, parte, tribunal, normativa, normas internas, normas de comunidad, normas de arbitraje]
+Text:
+Se deja constancia de que el Cliente no podrá visualizar en la App Tenpo otros movimientos de la Cuenta Paypal, como el pago de bienes o servicios en comercios asociados a PayPal.
+------------------------
+output:
+("entity"{tuple_delimiter}TENPO{tuple_delimiter}empresa{tuple_delimiter}Plataforma digital que ofrece servicios financieros y de pago a través de una aplicación móvil, en este caso, limita la visualización de ciertos movimientos de la cuenta PayPal del cliente) {record_delimiter}
+("entity"{tuple_delimiter}CUENTA PAYPAL{tuple_delimiter}servicio{tuple_delimiter}Cuenta de pago en línea vinculada a PayPal, utilizada por el cliente para realizar y recibir pagos electrónicos) {record_delimiter}
+("entity"{tuple_delimiter}CLIENTE{tuple_delimiter}persona{tuple_delimiter}Usuario que utiliza la plataforma Tenpo para gestionar su cuenta PayPal y realizar movimientos financieros) {record_delimiter}
+("relationship"{tuple_delimiter}TENPO{tuple_delimiter}CUENTA PAYPAL{tuple_delimiter}Tenpo limita la visualización en su app de ciertos movimientos de la cuenta PayPal del cliente{tuple_delimiter}8) {record_delimiter}
+("relationship"{tuple_delimiter}CLIENTE{tuple_delimiter}CUENTA PAYPAL{tuple_delimiter}El cliente tiene una cuenta PayPal vinculada a su perfil en Tenpo{tuple_delimiter}8) {completion_delimiter}
+#############################
+
+
+Example 2:
+
+Entity_types: [persona, organismo, empresa, dirección, ley, norma, contrato, cláusula, reclamo, procedimiento, regla, jurisdicción, país, ciudad, entidad, servicio, plazo, documento, formulario, notificación, contenido, contenido ilegal, reclamación, reparación, reclamante, parte, tribunal, normativa, normas internas, normas de comunidad, normas de arbitraje]
+Text:
+La parte que tenga la intención de solicitar un arbitraje deberá enviar primero a la otra, por correo certificado, un Aviso de Disputa válido ("Aviso"), que puede descargarse en este enlace. El Aviso a eBay se debe enviar a eBay Inc., Attn: Litigation Department, Re: Notice of Dispute, 583 W. eBay Way, Draper, UT 84020. eBay te enviará cualquier Aviso a la dirección física que esté registrada y asociada a tu cuenta de eBay; es tu responsabilidad mantener actualizada tu dirección física. Para ser válido, debes firmar personalmente el Aviso y completar toda la información del formulario del Aviso, incluida una descripción de la naturaleza y el fundamento de los reclamos que estás ratificando, la reparación judicial específica que buscas y la dirección de correo electrónico y el teléfono asociados con tu cuenta.
+------------------------
+output:
+("entity"{tuple_delimiter}EBAY INC.{tuple_delimiter}ORGANIZACIÓN{tuple_delimiter}Empresa multinacional de comercio electrónico que gestiona plataformas de compra y venta en línea, y a la cual se dirige el proceso de arbitraje descrito en el texto)
+{record_delimiter}
+("entity"{tuple_delimiter}LITIGATION DEPARTMENT{tuple_delimiter}ORGANIZACIÓN{tuple_delimiter}Departamento legal de eBay responsable de gestionar disputas y procedimientos legales)
+{record_delimiter}
+("entity"{tuple_delimiter}AVISO DE DISPUTA{tuple_delimiter}DOCUMENTO{tuple_delimiter}Documento que el usuario debe enviar a eBay para iniciar un proceso de arbitraje, que contiene información sobre la disputa y la reclamación)
+{record_delimiter}
+("entity"{tuple_delimiter}RE: NOTICE OF DISPUTE{tuple_delimiter}CLÁUSULA{tuple_delimiter}Referencia en la dirección postal que indica el propósito del envío del Aviso de Disputa, especificando que es una notificación de disputa)
+{record_delimiter}
+("entity"{tuple_delimiter}583 W. eBay Way, Draper, UT 84020{tuple_delimiter}DIRECCIÓN{tuple_delimiter}Dirección física a la que se debe enviar el Aviso de Disputa a eBay Inc.)
+{record_delimiter}
+("entity"{tuple_delimiter}AVISO{tuple_delimiter}CONTRATO{tuple_delimiter}Documento formal que el usuario debe firmar y completar para solicitar un arbitraje, que incluye detalles de la disputa y la reparación buscada)
+{record_delimiter}
+("entity"{tuple_delimiter}DIRECCIÓN{tuple_delimiter}DIRECCIÓN{tuple_delimiter}Dirección física registrada y asociada a la cuenta de eBay del usuario, que debe mantenerse actualizada por responsabilidad del usuario)
+{record_delimiter}
+("entity"{tuple_delimiter}FORMULARIO{tuple_delimiter}CONTRATO{tuple_delimiter}Formulario que debe completarse con información del reclamante, incluyendo descripción de la disputa, reparación buscada, y datos de contacto)
+{record_delimiter}
+("entity"{tuple_delimiter}RECLAMANTE{tuple_delimiter}PERSONA{tuple_delimiter}Usuario que realiza la reclamación o solicitud de arbitraje a eBay, responsable de enviar el Aviso y completar el formulario)
+{record_delimiter}
+("entity"{tuple_delimiter}PLAZO{tuple_delimiter}PLAZO{tuple_delimiter}Periodo de tiempo para enviar el Aviso de Disputa y completar el proceso de arbitraje, aunque no especificado en el texto, se infiere que debe hacerse antes de cualquier acción adicional)
+{record_delimiter}
+("relationship"{tuple_delimiter}RECLAMANTE{tuple_delimiter}EBAY INC.{tuple_delimiter}El reclamante debe enviar el Aviso de Disputa a eBay Inc. para iniciar el proceso de arbitraje{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AVISO DE DISPUTA{tuple_delimiter}EBAY INC.{tuple_delimiter}El Aviso de Disputa debe enviarse a la dirección postal de eBay Inc. en Draper, UT{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}RECLAMANTE{tuple_delimiter}FORMULARIO{tuple_delimiter}El reclamante debe completar toda la información del formulario del Aviso, incluyendo descripción, reparación, y datos de contacto{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}AVISO{tuple_delimiter}DIRECCIÓN{tuple_delimiter}El Aviso debe ser firmado personalmente por el reclamante{tuple_delimiter}8)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+Entity_types: [persona, organismo, empresa, dirección, ley, norma, contrato, cláusula, reclamo, procedimiento, regla, jurisdicción, país, ciudad, entidad, servicio, plazo, documento, formulario, notificación, contenido, contenido ilegal, reclamación, reparación, reclamante, parte, tribunal, normativa, normas internas, normas de comunidad, normas de arbitraje]
+Text: {input_text}
+######################
+Output:

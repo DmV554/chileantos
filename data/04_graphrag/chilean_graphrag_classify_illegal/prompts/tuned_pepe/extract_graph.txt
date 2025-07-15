@@ -1,0 +1,90 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [community of interest, legal community, stakeholders, entity, service provider, arbitrator, lawyer, court, regulation, law, jurisdiction, dispute resolution process, community member, community organization, community stakeholder, Cláusula no aplicable, Contra la LPC, Prohibición de prorrogar competencia, Desintermediación, Prohíbe acceso a justicia, Contra RCC]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in Spanish as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into Spanish, just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [community of interest, legal community, stakeholders, entity, service provider, arbitrator, lawyer, court, regulation, law, jurisdiction, dispute resolution process, community member, community organization, community stakeholder, Cláusula no aplicable, Contra la LPC, Prohibición de prorrogar competencia, Desintermediación, Prohíbe acceso a justicia, Contra RCC]
+text:
+Label/s: Contra RCC; Clausule Text: SI USAS LOS SERVICIOS PARA CUALQUIER FIN COMERCIAL, LUCRATIVO O DE REVENTA, DROPBOX, SUS FILIALES, SUS PROVEEDORES O SUS DISTRIBUIDORES NO SERÁN RESPONSABLES ANTE TI POR NINGUNA PÉRDIDA DE BENEFICIOS, PÉRDIDA COMERCIAL, INTERRUPCIÓN
+COMERCIAL NI PÉRDIDA DE OPORTUNIDAD DE NEGOCIOS. NI DROPBOX NI SUS FILIALES SON RESPONSABLES DE LA CONDUCTA, YA SEA EN LÍNEA O SIN CONEXIÓN, DE LOS USUARIOS DE LOS SERVICIOS.
+------------------------
+output:
+("entity"{tuple_delimiter}DROPBOX{tuple_delimiter}ENTITY{tuple_delimiter}Dropbox is a service provider offering online storage services and related digital services to users and affiliates)
+{record_delimiter}
+("entity"{tuple_delimiter}SUS FILIALES{tuple_delimiter}ENTITY{tuple_delimiter}Affiliates of Dropbox that may provide related services or distribution channels)
+{record_delimiter}
+("entity"{tuple_delimiter}SUS PROVEEDORES{tuple_delimiter}ENTITY{tuple_delimiter}Suppliers of Dropbox or its affiliates providing services or products)
+{record_delimiter}
+("entity"{tuple_delimiter}SUS DISTRIBUIDORES{tuple_delimiter}ENTITY{tuple_delimiter}Distributors associated with Dropbox or its affiliates providing distribution of services or products)
+{record_delimiter}
+("entity"{tuple_delimiter}CONTRA RCC{tuple_delimiter}COMMUNITY OF INTEREST{tuple_delimiter}Community of interest involved in the context of the clause, possibly related to regulatory or legal discussions)
+{record_delimiter}
+("relationship"{tuple_delimiter}DROPBOX{tuple_delimiter}SUS FILIALES{tuple_delimiter}SUS FILIALES are affiliates of Dropbox that may provide related services or distribution channels{tuple_delimiter}4)
+{record_delimiter}
+("relationship"{tuple_delimiter}DROPBOX{tuple_delimiter}SUS PROVEEDORES{tuple_delimiter}SUS PROVEEDORES are suppliers providing services or products to Dropbox or its affiliates{tuple_delimiter}4)
+{record_delimiter}
+("relationship"{tuple_delimiter}DROPBOX{tuple_delimiter}SUS DISTRIBUIDORES{tuple_delimiter}SUS DISTRIBUIDORES are distributors associated with Dropbox or its affiliates{tuple_delimiter}4)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [community of interest, legal community, stakeholders, entity, service provider, arbitrator, lawyer, court, regulation, law, jurisdiction, dispute resolution process, community member, community organization, community stakeholder, Cláusula no aplicable, Contra la LPC, Prohibición de prorrogar competencia, Desintermediación, Prohíbe acceso a justicia, Contra RCC]
+text:
+Label/s: Prohibición de prorrogar competencia; Clausule Text: Honorarios. Su responsabilidad de pagar los honorarios de presentación, administrativos y de árbitro de la AAA será únicamente la establecida en las Reglas de la AAA. Sin embargo, si su reclamo por daños y perjuicios no excede los $75,000, Academia.edu pagará todos esos honorarios a menos que el árbitro determine que el fondo de su reclamo o la reparación solicitada en su Demanda de arbitraje fueron frívolos o se presentaron con un propósito inadecuado ( medido por los estándares establecidos en la Regla Federal de Procedimiento Civil 11(b)).
+------------------------
+output:
+("entity"{tuple_delimiter}AAA{tuple_delimiter}ORGANIZATION{tuple_delimiter}La AAA (American Arbitration Association) es una organización que administra procedimientos de arbitraje y establece reglas para la resolución de disputas comerciales y civiles)
+{record_delimiter}
+("entity"{tuple_delimiter}ACADEMIAEDU{tuple_delimiter}ORGANIZATION{tuple_delimiter}Academia.edu es una plataforma en línea que puede estar involucrada en reclamaciones relacionadas con daños y perjuicios y que puede pagar honorarios en ciertos casos de arbitraje)
+{record_delimiter}
+("entity"{tuple_delimiter}REGLAS DE LA AAA{tuple_delimiter}REGULATION{tuple_delimiter}Conjunto de reglas que rigen los procedimientos de arbitraje administrados por la AAA, incluyendo la responsabilidad de pagar honorarios y las condiciones para determinar si un reclamo es frívolo)
+{record_delimiter}
+("entity"{tuple_delimiter}REGLA FEDERAL DE PROCEDIMIENTO CIVIL 11(b){tuple_delimiter}LAW{tuple_delimiter}Norma legal que establece los estándares para determinar si una reclamación o presentación en un proceso legal o arbitral es frívola o con un propósito inadecuado)
+{record_delimiter}
+("entity"{tuple_delimiter}HONORARIOS{tuple_delimiter}ENTITY{tuple_delimiter}Costos asociados a la presentación, administración y arbitraje en procedimientos de arbitraje, que en este contexto son regulados por la AAA y la Academia.edu en función de ciertos límites y condiciones)
+{record_delimiter}
+("relationship"{tuple_delimiter}AAA{tuple_delimiter}REGLAS DE LA AAA{tuple_delimiter}La AAA establece las reglas que regulan la responsabilidad de pagar honorarios en procedimientos de arbitraje{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACADEMIAEDU{tuple_delimiter}REGLAS DE LA AAA{tuple_delimiter}Academia.edu pagará honorarios en ciertos casos de reclamaciones por daños y perjuicios que no excedan los $75,000, según las reglas de la AAA{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}REGLAS DE LA AAA{tuple_delimiter}REGULATION{tuple_delimiter}Las reglas de la AAA regulan quién paga los honorarios y en qué circunstancias, incluyendo la determinación de si un reclamo es frívolo{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}REGLA FEDERAL DE PROCEDIMIENTO CIVIL 11(b){tuple_delimiter}LAW{tuple_delimiter}La Norma legal que establece los estándares para determinar si una reclamación o presentación en un proceso legal o arbitral es frívola o con un propósito inadecuado{tuple_delimiter}8)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [community of interest, legal community, stakeholders, entity, service provider, arbitrator, lawyer, court, regulation, law, jurisdiction, dispute resolution process, community member, community organization, community stakeholder, Cláusula no aplicable, Contra la LPC, Prohibición de prorrogar competencia, Desintermediación, Prohíbe acceso a justicia, Contra RCC]
+text: {input_text}
+######################
+output:

@@ -1,0 +1,16 @@
+name: Classification - Illegal
+data_path: data/01_raw/Chilean_Abusive_ToS/classification/Illegal.jsonl
+options:
+  NA: La cláusula no es aplicable o es irrelevante para la clasificación.
+  ILG LPC default: La cláusula infringe una norma general de la Ley de Protección al Consumidor (LPC).
+  ILG LPC PRO: La cláusula prohíbe o limita la prórroga de la competencia territorial, violando la LPC.
+  ILG LPC INT: La cláusula establece una desintermediación que perjudica al consumidor, violando la LPC.
+  ILG LPC JUS: La cláusula prohíbe o limita el acceso del consumidor a la justicia, violando la LPC.
+  ILG CC RC: La cláusula infringe las normas de Responsabilidad Civil del Código Civil.
+options_extended:
+  NA: Cláusula no aplicable
+  ILG LPC default: Contra la LPC
+  ILG LPC PRO: Prohibición de prorrogar competencia
+  ILG LPC INT: Desintermediación
+  ILG LPC JUS: Prohíbe acceso a justicia
+  ILG CC RC: Contra RCC

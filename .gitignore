@@ -1,0 +1,16 @@
+data/unfair_tos_data/
+data/chilean_tos/
+mlruns
+outputs
+kg
+.idea
+mlartifacts
+chilean_graphrag_classify_illegal/logs
+chilean_graphrag_classify_illegal/cache
+chilean_graphrag_classify_illegal/output
+__pycache__
+nohup.out
+results
+.vscode
+*.env
+data/04_graphrag/chilean_graphrag_classify_illegal/.env

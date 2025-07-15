@@ -1,0 +1,25 @@
+fewshot:
+  prompt_shot_path: "data/dataset_chile_v5.1_CLS_1-shot_prompt.docx"
+  
+  # VARIANTES ejemplo
+  #  5.1 -> illegal, 5.2 -> Dark, 5.3 -> Gray
+  # dataset_chile_v5.1_CLS_1-shot_prompt.docx -> illegal 1 shot
+  # dataset_chile_v5.1_CLS_5-shot_prompt.docx -> illegal 5 shot
+
+  # dataset_chile_v5.2_CLS_1-shot_prompt.docx -> Dark 1 shot
+  # dataset_chile_v5.2_CLS_5-shot_prompt.docx -> Dark 5 shot
+
+
+hybrid_rag:
+  top_k_retriever: 10
+  top_k_ranker: 5
+
+  sparse_embedding_model: "Qdrant/bm42-all-minilm-l6-v2-attentions"
+  ranker_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+naive_rag:
+  top_k: 3
+
+graphrag:
+  # Ruta por defecto a un proyecto de GraphRAG. Puede ser sobrescrita por el orquestador.
+  project_path: "data/04_graphrag/chilean_graphrag_classify_illegal"

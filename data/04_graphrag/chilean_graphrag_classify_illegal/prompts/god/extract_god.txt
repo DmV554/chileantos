@@ -1,0 +1,105 @@
+-Goal-
+Given a text document containing Terms of Service clauses with their corresponding ground truth labels, identify all legal entities, classification labels, and relationships to build a specialized knowledge graph for legal clause classification and retrieval.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [{entity_types}]
+- entity_description: Comprehensive description of the entity's attributes, legal significance, and role in Terms of Service context
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other in the legal context.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation of the legal or semantic relationship between entities, including how they interact in Terms of Service contexts
+- relationship_strength: a numeric score (1-10) indicating strength of the relationship, where 10 represents direct legal dependency or explicit mention together
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. When finished, output {completion_delimiter}
+
+-Domain-Specific Instructions-
+• ALWAYS extract classification labels when present, specifically looking for these ground truth labels:
+  - "Cláusula no aplicable" (NA)
+  - "Contra la LPC" (violation of consumer protection law)  
+  - "Prohibición de prorrogar competencia" (prohibition of extending jurisdiction)
+  - "Desintermediación" (disintermediation)
+  - "Prohíbe acceso a justicia" (prohibits access to justice)
+  - "Contra RCC" (violation of consumer protection regulations)
+• Focus on legal entities: courts, laws, procedures, organizations, jurisdictions, legal concepts
+• Extract contractual elements: arbitration bodies, governing laws, dispute resolution mechanisms
+• Identify key legal terms and their relationships to classification categories
+• Pay attention to procedural and substantive legal concepts that relate to consumer protection
+• When labels are explicitly mentioned (e.g., "Label/s: Prohibición de prorrogar competencia"), treat them as LABEL entities
+• Create strong relationships between LABEL entities and the legal concepts they classify
+• Consider how each label relates to consumer rights and legal protections
+
+######################
+-Examples-
+######################
+Example 1:
+Entity_types: ORGANIZATION,PERSON,LEGAL_CONCEPT,JURISDICTION,LABEL
+Text:
+Label/s: Prohibición de prorrogar competencia; Clausula: El arbitraje será administrado por la Asociación Estadounidense de Arbitraje ("AAA") de acuerdo con las Reglas de Arbitraje Comercial y los Procedimientos Suplementarios para Disputas Relacionadas con el Consumidor.
+######################
+Output:
+("entity"{tuple_delimiter}PROHIBICIÓN DE PRORROGAR COMPETENCIA{tuple_delimiter}LABEL{tuple_delimiter}Ground truth classification label indicating this clause prohibits extending jurisdiction or competence beyond established limits)
+{record_delimiter}
+("entity"{tuple_delimiter}ASOCIACIÓN ESTADOUNIDENSE DE ARBITRAJE{tuple_delimiter}ORGANIZATION{tuple_delimiter}The American Arbitration Association, an organization that administers arbitration proceedings)
+{record_delimiter}
+("entity"{tuple_delimiter}AAA{tuple_delimiter}ORGANIZATION{tuple_delimiter}Acronym for the American Arbitration Association)
+{record_delimiter}
+("entity"{tuple_delimiter}REGLAS DE ARBITRAJE COMERCIAL{tuple_delimiter}LEGAL_CONCEPT{tuple_delimiter}Commercial arbitration rules that govern dispute resolution procedures)
+{record_delimiter}
+("entity"{tuple_delimiter}PROCEDIMIENTOS SUPLEMENTARIOS PARA DISPUTAS RELACIONADAS CON EL CONSUMIDOR{tuple_delimiter}LEGAL_CONCEPT{tuple_delimiter}Supplementary procedures specifically designed for consumer-related disputes in arbitration)
+{record_delimiter}
+("entity"{tuple_delimiter}ARBITRAJE{tuple_delimiter}LEGAL_CONCEPT{tuple_delimiter}Alternative dispute resolution mechanism outside of traditional court systems)
+{record_delimiter}
+("relationship"{tuple_delimiter}PROHIBICIÓN DE PRORROGAR COMPETENCIA{tuple_delimiter}ARBITRAJE{tuple_delimiter}This label classifies clauses that establish arbitration as mandatory dispute resolution, limiting judicial competence{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}ASOCIACIÓN ESTADOUNIDENSE DE ARBITRAJE{tuple_delimiter}AAA{tuple_delimiter}AAA is the acronym for Asociación Estadounidense de Arbitraje{tuple_delimiter}10)
+{record_delimiter}
+("relationship"{tuple_delimiter}AAA{tuple_delimiter}REGLAS DE ARBITRAJE COMERCIAL{tuple_delimiter}The AAA administers arbitration proceedings according to Commercial Arbitration Rules{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}REGLAS DE ARBITRAJE COMERCIAL{tuple_delimiter}PROCEDIMIENTOS SUPLEMENTARIOS PARA DISPUTAS RELACIONADAS CON EL CONSUMIDOR{tuple_delimiter}Both are sets of rules used together to govern consumer dispute arbitration{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}PROHIBICIÓN DE PRORROGAR COMPETENCIA{tuple_delimiter}ASOCIACIÓN ESTADOUNIDENSE DE ARBITRAJE{tuple_delimiter}This label applies to clauses that specify AAA as arbitration administrator, limiting court jurisdiction{tuple_delimiter}8)
+{completion_delimiter}
+
+######################
+Example 2:
+Entity_types: JURISDICTION,LEGAL_CONCEPT,LABEL,LAW
+Text:
+Label/s: Contra RCC, Contra la LPC; Clausula: La Ley Federal de Arbitraje regirá la interpretación y aplicación de esta Sección. Este acuerdo se rige por las leyes del Estado de California.
+######################
+Output:
+("entity"{tuple_delimiter}CONTRA RCC{tuple_delimiter}LABEL{tuple_delimiter}Ground truth classification label indicating this clause violates consumer protection regulations)
+{record_delimiter}
+("entity"{tuple_delimiter}CONTRA LA LPC{tuple_delimiter}LABEL{tuple_delimiter}Ground truth classification label indicating this clause violates consumer protection law)
+{record_delimiter}
+("entity"{tuple_delimiter}LEY FEDERAL DE ARBITRAJE{tuple_delimiter}LAW{tuple_delimiter}Federal law that governs the interpretation and enforcement of arbitration agreements)
+{record_delimiter}
+("entity"{tuple_delimiter}ESTADO DE CALIFORNIA{tuple_delimiter}JURISDICTION{tuple_delimiter}State jurisdiction whose laws govern the contractual agreement)
+{record_delimiter}
+("entity"{tuple_delimiter}LEY APLICABLE{tuple_delimiter}LEGAL_CONCEPT{tuple_delimiter}Legal concept referring to which jurisdiction's laws govern a contract)
+{record_delimiter}
+("entity"{tuple_delimiter}INTERPRETACIÓN{tuple_delimiter}LEGAL_CONCEPT{tuple_delimiter}Legal concept of how contractual terms should be understood and applied)
+{record_delimiter}
+("relationship"{tuple_delimiter}CONTRA RCC{tuple_delimiter}ESTADO DE CALIFORNIA{tuple_delimiter}This label identifies clauses that specify California law in ways that may violate consumer regulations{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}CONTRA LA LPC{tuple_delimiter}LEY FEDERAL DE ARBITRAJE{tuple_delimiter}This label applies to clauses specifying federal arbitration law in violation of consumer protection law{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}LEY FEDERAL DE ARBITRAJE{tuple_delimiter}INTERPRETACIÓN{tuple_delimiter}Federal Arbitration Act governs how arbitration clauses should be interpreted{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}CONTRA RCC{tuple_delimiter}CONTRA LA LPC{tuple_delimiter}Both labels can apply to the same clause when it violates multiple consumer protection frameworks{tuple_delimiter}7)
+{completion_delimiter}
+
+######################
+-Real Data-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
+######################
+Output:

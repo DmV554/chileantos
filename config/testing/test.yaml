@@ -1,0 +1,11 @@
+test_retrieval:
+  task_key: classify_illegal
+  query_clause: "22.1 Aplicaci\u00f3n. El presente Acuerdo de Arbitraje solo es v\u00e1lido para los Miembros\nresidentes o establecidos en Estados Unidos. Si el pa\u00eds donde usted tiene residencia o\nestablecimiento no es Estados Unidos y, sin embargo, usted intenta presentar cualquier\nreclamaci\u00f3n legal contra Airbnb en Estados Unidos, este Acuerdo de Arbitraje se\naplicar\u00e1 para determinar la cuesti\u00f3n previa relativa a si esta Secci\u00f3n 22 se aplica a usted\no no, y todas las dem\u00e1s determinaciones de l\u00edmite, incluyendo residencia, arbitrabilidad,\nlegislaci\u00f3n y jurisdicci\u00f3n aplicable."
+  top_k: 4
+  embedding_model: Qwen/Qwen3-Embedding-0.6B
+
+
+evaluate_retrieval:
+  task_key: "classify_illegal" # O "dark_clauses", "gray_clauses"
+  embedding_model: "BAAI/bge-m3" # El modelo a evaluar
+  top_k: 3 # El valor de 'k' para las métricas

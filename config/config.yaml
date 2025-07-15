@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - task: illegal   # default, puedes cambiar con override
+  - strategy: strat
+  - db: embeddings
+
+
+run_config:  
+  base_url_model: "http://localhost:11434/" 
+  api_key: ollama
+
+  mlflow_experiment_name: "Embed test"
+  mlflow_tracking_uri: "http://localhost:5002"
+  parent_run_id: "placeholder"
+
+models:
+  llm: "gemma3:1b"
+
+prompts:
+  prompt: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"
