@@ -4,28 +4,24 @@ from omegaconf import DictConfig
 import logging
 import os
 from tqdm import tqdm
+import sys
 
+# --- Inicio: Modificación del Path para Imports Absolutos ---
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+# --- Fin: Modificación del Path ---
 # Imports de Haystack y Datasets
 from haystack_integrations.document_stores.qdrant import QdrantDocumentStore
 from haystack.components.embedders import SentenceTransformersDocumentEmbedder
 from haystack.dataclasses import Document
-from datasets import load_dataset, concatenate_datasets
+
+# Importamos nuestro nuevo data loader
+from src.utils.data_loader import load_dataset_for_indexing
 
 # --- Configuración del Logging ---
 log = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
-
-def load_train_val_data(task_cfg: DictConfig):
-    """Carga y combina los splits de 'train' y 'validation' del dataset."""
-    data_path = os.path.join(hydra.utils.get_original_cwd(), task_cfg.data_path)
-    dataset = load_dataset('json', data_files=data_path, split='train')
-    
-    train_ds = dataset.filter(lambda x: x['split'] == 'train')
-    validation_ds = dataset.filter(lambda x: x['split'] == 'validation')
-    
-    combined_ds = concatenate_datasets([train_ds, validation_ds])
-    log.info(f"Cargados {len(train_ds)} documentos de entrenamiento y {len(validation_ds)} de validación.")
-    return combined_ds
 
 @hydra.main(config_path="../../config", config_name="config", version_base=None)
 def main(cfg: DictConfig):
@@ -64,7 +60,7 @@ def main(cfg: DictConfig):
     doc_embedder.warm_up()
 
     # --- Cargar y Procesar Datos ---
-    all_docs_for_indexing = load_train_val_data(task_cfg)
+    all_docs_for_indexing = load_dataset_for_indexing(task_cfg)
 
     # Deduplicar documentos por contenido para evitar errores de Haystack
     log.info("Deduplicando documentos por contenido...")

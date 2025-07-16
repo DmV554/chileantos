@@ -3,44 +3,41 @@ from omegaconf import DictConfig
 import ast
 import mlflow
 import logging
-from datasets import load_dataset
 import pandas as pd
 from pathlib import Path
 import asyncio
 import re
 import os
+import sys
 
-# Imports de Scikit-learn
+# --- Inicio: Modificación del Path para Imports Absolutos ---
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+# --- Fin: Modificación del Path ---
+
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import f1_score
 
-# La intercepción de Ollama se movió aquí para asegurar que se configure antes de usar GraphRAG
+from src.utils.data_loader import load_test_set
+from src.pipelines.common.base_worker import BaseExperimentWorker
+
 from interceptor import install_ollama_interceptor
 interceptor = install_ollama_interceptor()
 
 import graphrag.api as api
 from graphrag.config.load_config import load_config
 
-# --- Configuración de Logging ---
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
-def load_test_data(task_cfg: DictConfig):
-    """Carga solo el split de 'test' del dataset."""
-    data_path = os.path.join(hydra.utils.get_original_cwd(), task_cfg.data_path)
-    dataset = load_dataset('json', data_files=data_path, split='train')
-    test_ds = dataset.filter(lambda x: x['split'] == 'test')
-    log.info(f"Cargados {len(test_ds)} elementos del test set para evaluación.")
-    return test_ds
-
 def parse_llm_output(output: str, possible_labels: list):
-    """Parsea la salida del LLM, buscando una lista de Python o etiquetas conocidas."""
     try:
         predicted_labels = ast.literal_eval(output.strip())
         if isinstance(predicted_labels, list):
             return [label for label in predicted_labels if label in possible_labels]
     except (ValueError, SyntaxError, NameError):
-        log.warning(f"No se pudo parsear la salida con ast: '{output}'. Buscando etiquetas conocidas en el texto.")
+        log.warning(f"No se pudo parsear la salida con ast: '{output}'. Buscando etiquetas conocidas.")
     
     matches = []
     for label in possible_labels:
@@ -48,61 +45,59 @@ def parse_llm_output(output: str, possible_labels: list):
             matches.append(label)
     return matches
 
-async def run_graphrag_classification(cfg: DictConfig):
-    """Ejecuta una única corrida de evaluación usando un grafo de GraphRAG."""
-    # --- 1. Cargar Configuración --- 
-    task_cfg = cfg.task
-    strategy_cfg = cfg.strategy.graphrag
-    task_name_key = task_cfg.name.split(' - ')[-1].lower()
+class GraphRAGWorker(BaseExperimentWorker):
+    """Worker para experimentos con GraphRAG."""
 
-    # --- 2. Configuración de MLflow ---
-    mlflow.set_tracking_uri(cfg.run_config.mlflow_tracking_uri)
-    mlflow.set_experiment(cfg.run_config.mlflow_experiment_name)
-    run_name = f"GraphRAG_{task_name_key}_{cfg.models.llm}"
-    
-    with mlflow.start_run(run_name=run_name) as run:
-        if "parent_run_id" in cfg.run_config and cfg.run_config.parent_run_id != "placeholder":
-            mlflow.set_tag("mlflow.parentRunId", cfg.run_config.parent_run_id)
+    def __init__(self, cfg: DictConfig):
+        super().__init__(cfg)
+        self.strategy_cfg = self.cfg.strategy.graphrag
+        self.project_dir = os.path.join(hydra.utils.get_original_cwd(), self.strategy_cfg.project_path)
+        self.graphrag_config = load_config(root_dir=Path(self.project_dir))
+        self.actual_model_name = self.graphrag_config.get("models", {}).get("default_chat_model", {}).get("model", "unknown")
 
-        # Logueo de parámetros
-        params_to_log = {
-            "task_name": task_cfg.name,
-            "model_name": cfg.models.llm,
-            "embedding_model": cfg.db.naive.embedding_model, # Asumimos que el embedder es el naive
+    def _get_run_name(self) -> str:
+        return f"GraphRAG_{self.task_name_key}_{self.actual_model_name}"
+
+    def _get_parameters_to_log(self) -> dict:
+        return {
+            "task_name": self.task_cfg.name,
+            "model_name": self.actual_model_name,
+            "embedding_model": self.graphrag_config.get("models", {}).get("default_embedding_model", {}).get("model", "unknown"),
             "worker_type": "GraphRAG_LocalSearch",
-            "graph_project_path": strategy_cfg.project_path
+            "graph_project_path": self.strategy_cfg.project_path
         }
-        mlflow.log_params(params_to_log)
 
-        # --- 3. Cargar Artefactos de GraphRAG ---
-        project_dir = os.path.join(hydra.utils.get_original_cwd(), strategy_cfg.project_path)
-        log.info(f"Cargando artefactos del grafo desde: {project_dir}")
-        
-        # Carga la configuración de GraphRAG. La librería busca automáticamente
-        # los archivos settings.yaml y .env dentro del root_dir.
-        # Se debe pasar un objeto Path, no un string.
-        graphrag_config = load_config(root_dir=Path(project_dir))
-                
-        output_dir = os.path.join(project_dir, "output_definitivo")
+    def _execute_task(self) -> None:
+        # El bucle de eventos de asyncio debe ser manejado aquí
+        asyncio.run(self._execute_async_task())
+
+    async def _execute_async_task(self):
+        log.info(f"Cargando artefactos del grafo desde: {self.project_dir}")
+        output_dir = os.path.join(self.project_dir, "output_definitivo")
         entities = pd.read_parquet(os.path.join(output_dir, "entities.parquet"))
         communities = pd.read_parquet(os.path.join(output_dir, "communities.parquet"))
         community_reports = pd.read_parquet(os.path.join(output_dir, "community_reports.parquet"))
         text_units = pd.read_parquet(os.path.join(output_dir, "text_units.parquet"))
         relationships = pd.read_parquet(os.path.join(output_dir, "relationships.parquet"))
         
-        # --- 4. Cargar Datos de Evaluación ---
-        test_dataset = load_test_data(task_cfg)
-        possible_options = list(task_cfg.options.keys())
+        test_dataset = load_test_set(self.task_cfg)
         
-        # --- 5. Bucle de Inferencia Asíncrono ---
+        true_labels, pred_labels = await self._run_inference_loop(
+            entities, communities, community_reports, text_units, relationships, test_dataset
+        )
+        
+        self._evaluate_and_log(true_labels, pred_labels)
+
+    async def _run_inference_loop(self, entities, communities, community_reports, text_units, relationships, test_dataset):
         true_labels, pred_labels = [], []
-        
+        possible_options = list(self.task_cfg.options.keys())
+
         for item in test_dataset:
             query_text = item['text']
             prompt = f"Clasifica esta clausula: {query_text}"
 
             result, _ = await api.local_search(
-                config=graphrag_config,
+                config=self.graphrag_config,
                 entities=entities,
                 communities=communities,
                 community_reports=community_reports,
@@ -119,9 +114,11 @@ async def run_graphrag_classification(cfg: DictConfig):
             
             true_labels.append(item['human_readable_labels'])
             pred_labels.append(detected_labels)
+        return true_labels, pred_labels
 
-        # --- 6. Evaluación y Métricas ---
+    def _evaluate_and_log(self, true_labels, pred_labels):
         log.info("--- Evaluación Final ---")
+        possible_options = list(self.task_cfg.options.keys())
         mlb = MultiLabelBinarizer(classes=possible_options)
         true_bin = mlb.fit_transform(true_labels)
         pred_bin = mlb.transform(pred_labels)
@@ -135,8 +132,8 @@ async def run_graphrag_classification(cfg: DictConfig):
 
 @hydra.main(config_path="../../config", config_name="config", version_base=None)
 def main(cfg: DictConfig):
-    """Función síncrona que inicia el bucle de eventos de asyncio."""
-    asyncio.run(run_graphrag_classification(cfg))
+    worker = GraphRAGWorker(cfg)
+    worker.run()
     
 if __name__ == "__main__":
     main()

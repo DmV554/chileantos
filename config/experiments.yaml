@@ -1,5 +1,5 @@
 # experiments.yaml
-active_suite: "graphrag_suite"
+active_suite: "few_shot_suite"
 
 mlflow_tracking_uri: "http://localhost:5002"
 
@@ -8,7 +8,7 @@ mlflow_tracking_uri: "http://localhost:5002"
 # -------------------------------------------------------------
 few_shot_suite:
   mlflow_experiment_name: "Paper_Replication_FewShot"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/few_shot_chileanTOS.py"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/few_shot.py"
   num_runs_per_experiment: 1
   #, "classify_dark", "classify_gray"
   parameters:
@@ -24,7 +24,7 @@ few_shot_suite:
 # -------------------------------------------------------------
 rag_suite:
   mlflow_experiment_name: "Paper_Replication_RAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/rag_chileanTOS.py"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/rag.py"
   num_runs_per_experiment: 1
 
   parameters:
@@ -39,7 +39,7 @@ rag_suite:
 # -------------------------------------------------------------
 graphrag_suite:
   mlflow_experiment_name: "Paper_Replication_GraphRAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/graphrag_classifier.py"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/graphrag.py"
   num_runs_per_experiment: 1 # Es determinista, con una corrida basta
 
   parameters:
@@ -67,4 +67,22 @@ hybrid_rag_suite:
     prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
     retriever_top_k: [10, 20]
     ranker_top_k: [3, 5]
+
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA LightRAG
+# -------------------------------------------------------------
+lightrag_suite:
+  mlflow_experiment_name: "Paper_Replication_LightRAG"
+  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/lightrag.py"
+  num_runs_per_experiment: 1
+
+  parameters:
+    tasks: ["illegal"]
+    # El modelo de LLM que LightRAG usará para la síntesis
+    ollama_rag_models: ["gemma3:1b"]
+    # El prompt no se usa directamente aquí, ya que LightRAG maneja su propio prompting interno,
+    # pero lo mantenemos por consistencia del orquestador.
+    prompts: ["internal_lightrag_prompt"]
+    # El modelo de embedding se toma de la config (db.naive.embedding_model)
+    embedding_models: ["BAAI/bge-m3"]
  

@@ -23,3 +23,7 @@ naive_rag:
 graphrag:
   # Ruta por defecto a un proyecto de GraphRAG. Puede ser sobrescrita por el orquestador.
   project_path: "data/04_graphrag/chilean_graphrag_classify_illegal"
+
+lightrag:
+  # Ruta al workspace de LightRAG donde se guardan los índices y el grafo.
+  index_path: "data/05_lightrag_indexes/illegal_index"
