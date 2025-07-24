@@ -1,8 +1,5 @@
-data/unfair_tos_data/
-data/chilean_tos/
 mlruns
 outputs
-kg
 .idea
 mlartifacts
 chilean_graphrag_classify_illegal/logs
@@ -14,3 +11,5 @@ results
 .vscode
 *.env
 data/04_graphrag/chilean_graphrag_classify_illegal/.env
+config/experiments.yaml
+05_lightrag

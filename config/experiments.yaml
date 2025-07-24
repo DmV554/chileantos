@@ -1,5 +1,5 @@
 # experiments.yaml
-active_suite: "few_shot_suite"
+active_suite: "hybrid_rag_suite"
 
 mlflow_tracking_uri: "http://localhost:5002"
 
@@ -63,10 +63,10 @@ hybrid_rag_suite:
 
   parameters:
     tasks: ["illegal"]
-    ollama_rag_models: ["gemma3:1b", "llama3.2:3b-instruct-q8_0"]
+    ollama_rag_models: ["gemma3:1b"]
     prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
-    retriever_top_k: [10, 20]
-    ranker_top_k: [3, 5]
+    retriever_top_k: [10]
+    ranker_top_k: [3]
 
 # -------------------------------------------------------------
 # SUITE DE EXPERIMENTOS PARA LightRAG

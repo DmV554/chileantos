@@ -58,7 +58,7 @@ class HybridRAGWorker(BaseExperimentWorker):
     def _get_parameters_to_log(self) -> dict:
         return {
             "task_name": self.task_cfg.name,
-            "llm_model": self.cfg.models.llm,
+            "model_name": self.cfg.models.llm,
             "dense_model": self.db_cfg.embedding_model,
             "sparse_model": self.strategy_cfg.sparse_embedding_model,
             "ranker_model": self.strategy_cfg.ranker_model,

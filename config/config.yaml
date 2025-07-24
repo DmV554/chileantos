@@ -6,7 +6,7 @@ defaults:
 
 
 run_config:  
-  base_url_model: "http://localhost:11434/v1" 
+  base_url_model: "http://localhost:11434/" 
   api_key: ollama
 
   mlflow_experiment_name: "Embed test"
