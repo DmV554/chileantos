@@ -4,25 +4,62 @@ import re
 
 log = logging.getLogger(__name__)
 
-def parse_llm_output(output: str, possible_labels: list) -> list:
+
+def get_model_short_name(model_name: str) -> str:
     """
-    Parsea la salida de un LLM, que se espera que sea una lista de strings.
-    Intenta primero con una evaluación literal de Python (ast.literal_eval).
-    Si falla, busca las etiquetas conocidas dentro del texto como fallback.
+    Extrae el nombre corto del modelo de Hugging Face.
+
+    Args:
+        model_name (str): Nombre completo del modelo (e.g., 'Qwen/Qwen3-Embedding-0.6B')
+
+    Returns:
+        str: Nombre corto del modelo (e.g., 'Qwen3-Embedding-0.6B')
     """
+    return model_name.split("/")[-1]
+
+
+def parse_model_output_with_reasoning(output: str) -> dict:
+    """
+    Extrae el reasoning y la lista de etiquetas desde la salida del modelo.
+
+    Args:
+        output (str): Texto completo de la respuesta del modelo.
+
+    Returns:
+        dict: Contiene 'reasoning' (str) y 'labels' (list[str]). Vacíos si hay error.
+    """
+    result = {
+        "reasoning": "",
+        "labels": []
+    }
+
+    # Extraer reasoning
+    reasoning_match = re.search(r"\*\*REASONING:\*\*\s*(.*?)\s*\*\*LABELS:\*\*", output, re.DOTALL)
+    if reasoning_match:
+        result["reasoning"] = reasoning_match.group(1).strip()
+
+    # Extraer labels
+    labels_match = re.search(r"\*\*LABELS:\*\*\s*(\[.*?\])", output, re.DOTALL)
+    if labels_match:
+        labels_str = labels_match.group(1).strip()
+        try:
+            result["labels"] = ast.literal_eval(labels_str)
+        except (SyntaxError, ValueError):
+            result["labels"] = []
+
+    return result
+
+
+def parse_model_output(output: str):
     try:
-        # Intenta el parseo estricto primero
-        predicted_labels = ast.literal_eval(output.strip())
-        if isinstance(predicted_labels, list):
-            # Filtra para devolver solo las etiquetas que son válidas
-            return [str(label) for label in predicted_labels if str(label) in possible_labels]
-    except (ValueError, SyntaxError, NameError):
-        log.warning(f"No se pudo parsear la salida con ast: '{output}'. Usando fallback de regex.")
-    
-    # Fallback: buscar las etiquetas conocidas en el texto
-    matches = []
-    for label in possible_labels:
-        # Busca la etiqueta como una palabra completa para evitar coincidencias parciales
-        if re.search(rf'\b{re.escape(str(label))}\b', output):
-            matches.append(str(label))
-    return matches
+        # Eliminar razonamiento entre <think>...</think> si existe
+        output_clean = re.sub(r"<think>.*?</think>", "", output, flags=re.DOTALL).strip()
+
+        # Buscar la última lista válida en el string (para evitar texto adicional)
+        matches = re.findall(r"\[[^\[\]]+\]", output_clean)
+        if matches:
+            return ast.literal_eval(matches[-1])
+    except (ValueError, SyntaxError):
+        pass
+    return []
+

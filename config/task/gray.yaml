@@ -1,5 +1,5 @@
   name: "Classification - Gray"
-  data_path: "data/chilean_tos/Chilean_Abusive_ToS/classification/Gray.jsonl"
+  data_path: data/01_raw/Chilean_Abusive_ToS/classification/Gray.jsonl
   options:
     bfe: "La cláusula atenta contra las exigencias de la buena fe"
     des reser: "El proveedor se reserva el derecho de modificar unilateralmente el contrato"

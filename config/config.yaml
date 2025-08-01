@@ -6,8 +6,8 @@ defaults:
 
 
 run_config:  
-  base_url_model: "http://localhost:11434/" 
-  api_key: ollama
+  base_url_model: "https://api.openai.com/v1" 
+  api_key: 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
 
   mlflow_experiment_name: "Embed test"
   mlflow_tracking_uri: "http://localhost:5002"

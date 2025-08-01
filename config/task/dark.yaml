@@ -1,6 +1,6 @@
 
     name: "Classification - Dark"
-    data_path: "data/chilean_tos/Chilean_Abusive_ToS/classification/Dark.jsonl"
+    data_path: data/01_raw/Chilean_Abusive_ToS/classification/Dark.jsonl
     options:
       cr: "Modificación unilateral y arbitraria de los términos del servicio"
       ter: "Terminación unilateral del servicio sin causa justificada"

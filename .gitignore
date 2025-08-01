@@ -11,5 +11,8 @@ results
 .vscode
 *.env
 data/04_graphrag/chilean_graphrag_classify_illegal/.env
-config/experiments.yaml
 05_lightrag
+error
+log
+compute.sh
+data/03_vector_stores

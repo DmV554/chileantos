@@ -22,22 +22,20 @@ from haystack_integrations.components.embedders.fastembed import FastembedSparse
 from haystack.components.rankers import SentenceTransformersSimilarityRanker
 from haystack.components.builders import PromptBuilder
 from haystack_integrations.components.generators.ollama import OllamaGenerator
+from haystack.components.generators import OpenAIGenerator
 from haystack.components.embedders import SentenceTransformersTextEmbedder
 from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import f1_score
-
+from haystack.utils import Secret
 from src.utils.data_loader import load_test_set
 from src.pipelines.common.base_worker import BaseExperimentWorker
+
+from src.utils.parsing import get_model_short_name, parse_model_output, parse_model_output_with_reasoning
 
 log = logging.getLogger(__name__)
 
 # --- Funciones de utilidad específicas para este worker ---
 
-def parse_model_output(output: str):
-    try:
-        return ast.literal_eval(output.strip())
-    except (ValueError, SyntaxError):
-        return []
 
 def load_prompt_template(path: str):
     full_path = os.path.join(hydra.utils.get_original_cwd(), path)
@@ -69,9 +67,10 @@ class HybridRAGWorker(BaseExperimentWorker):
         }
 
     def _execute_task(self) -> None:
+        embed_shor_name = get_model_short_name(str(self.db_cfg.embedding_model))
         storage_dir = self.db_cfg.storage_dir.format(
             task_key=self.task_name_key,
-            embed_short=self.db_cfg.embed_model_name_short
+            embed_short=embed_shor_name
         )
         full_storage_path = os.path.join(hydra.utils.get_original_cwd(), storage_dir)
         
@@ -88,6 +87,18 @@ class HybridRAGWorker(BaseExperimentWorker):
         true_labels, pred_labels = self._run_inference_loop(pipeline, test_dataset)
         
         self._evaluate_and_log(true_labels, pred_labels, test_dataset)
+        
+    def check_gpt_in_llm(self):
+        """
+        Comprueba si la cadena self.cfg.models.llm contiene la palabra "gpt"
+        (ignorando mayúsculas y minúsculas).
+        """
+        if "gpt" in str(self.cfg.models.llm).lower():
+                print(f"La cadena '{self.cfg.models.llm}' contiene la palabra 'gpt'.")
+                return True
+        else:
+                print(f"La cadena '{self.cfg.models.llm}' no contiene la palabra 'gpt'.")
+                return False
 
     def _build_pipeline(self, document_store):
         log.info("Construyendo el pipeline de RAG Híbrido...")
@@ -99,7 +110,13 @@ class HybridRAGWorker(BaseExperimentWorker):
         hybrid_pipeline.add_component("retriever", QdrantHybridRetriever(document_store=document_store, top_k=self.strategy_cfg.top_k_retriever))
         hybrid_pipeline.add_component("ranker", SentenceTransformersSimilarityRanker(model=self.strategy_cfg.ranker_model, top_k=self.strategy_cfg.top_k_ranker))
         hybrid_pipeline.add_component("prompt_builder", PromptBuilder(template=prompt_template))
-        hybrid_pipeline.add_component("llm", OllamaGenerator(model=self.cfg.models.llm, timeout=3600, url=self.run_config.base_url_model))
+        
+        if(self.check_gpt_in_llm()):
+            generator = OpenAIGenerator(api_key=Secret.from_token("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"), model=self.cfg.models.llm)
+        else:
+            generator = OllamaGenerator(model=self.cfg.models.llm, timeout=3600, url=self.run_config.base_url_model)
+        
+        hybrid_pipeline.add_component("llm", generator)
 
         hybrid_pipeline.connect("sparse_embedder.sparse_embedding", "retriever.query_sparse_embedding")
         hybrid_pipeline.connect("dense_embedder.embedding", "retriever.query_embedding")
@@ -122,7 +139,18 @@ class HybridRAGWorker(BaseExperimentWorker):
             })
             
             response_text = result["llm"]["replies"][0]
-            detected = parse_model_output(response_text)
+            print(response_text)
+            prompt_path = self.cfg.prompts.prompt
+            
+            if prompt_path=="/srv/dmiranda/graphrag_chileantos/chileantos/prompts/vanilla.txt":
+                detected = parse_model_output(response_text)    
+                print(f"EL PEPE VANILLA -> {detected}")
+ 
+            else:
+                detected = parse_model_output_with_reasoning(response_text)
+                detected = detected["labels"]
+                print(f"EL PEPE REASONING -> {detected}")
+
 
             true_labels.append(item['human_readable_labels'])
             pred_labels.append(detected)

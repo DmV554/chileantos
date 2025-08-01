@@ -1,5 +1,5 @@
 # experiments.yaml
-active_suite: "hybrid_rag_suite"
+active_suite: "few_shot_suite"
 
 mlflow_tracking_uri: "http://localhost:5002"
 
@@ -8,15 +8,15 @@ mlflow_tracking_uri: "http://localhost:5002"
 # -------------------------------------------------------------
 few_shot_suite:
   mlflow_experiment_name: "Paper_Replication_FewShot"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/few_shot.py"
+  worker_script_path: "/srv/dmiranda/graphrag_chileantos/chileantos/src/pipelines/few_shot.py"
   num_runs_per_experiment: 1
   #, "classify_dark", "classify_gray"
   parameters:
     tasks: ["illegal"]
-    few_shot_models: ["gemma3:1b"]
+    few_shot_models: ["gpt-4.1"]
     prompts:
-      - "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_1-shot_prompt.docx"
-      - "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_3-shot_prompt.docx"
+      - "/srv/dmiranda/graphrag_chileantos/chileantos/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_1-shot_prompt.docx"
+      - "/srv/dmiranda/graphrag_chileantos/chileantos/prompts/fewshot/dataset_chile_v5/dataset_chile_v5.1_CLS_3-shot_prompt.docx"
 
 #
 # -------------------------------------------------------------
@@ -24,22 +24,38 @@ few_shot_suite:
 # -------------------------------------------------------------
 rag_suite:
   mlflow_experiment_name: "Paper_Replication_RAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/rag.py"
+  worker_script_path: "/srv/dmiranda/graphrag_chileantos/chileantos/src/pipelines/rag.py"
   num_runs_per_experiment: 1
 
   parameters:
     tasks: ["illegal"]
-    ollama_rag_models: ["gemma3n:e2b"]
+    ollama_rag_models: ["gpt4.1-nano"]
     embedding_models: ["intfloat/multilingual-e5-large"]
-    similarity_top_k: [1,3,5]
-    prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
+    similarity_top_k: [5]
+    prompts: ["/srv/dmiranda/graphrag_chileantos/chileantos/prompts/vanilla.txt"]
+
+# -------------------------------------------------------------
+# SUITE DE EXPERIMENTOS PARA RAG HÍBRIDO
+# -------------------------------------------------------------
+hybrid_rag_suite:
+  mlflow_experiment_name: "Paper_Replication_HybridRAG"
+  worker_script_path: "/srv/dmiranda/graphrag_chileantos/chileantos/src/pipelines/hybrid_rag.py"
+  num_runs_per_experiment: 1
+
+  parameters:
+    tasks: ["illegal"]
+    ollama_rag_models: ["deepseek-r1:32b"]
+    embedding_models: ["intfloat/multilingual-e5-large"]
+    prompts: ["/srv/dmiranda/graphrag_chileantos/chileantos/prompts/cot.txt"]
+    retriever_top_k: [12]
+    ranker_top_k: [5]
 
 # -------------------------------------------------------------
 # SUITE DE EXPERIMENTOS PARA GraphRAG
 # -------------------------------------------------------------
 graphrag_suite:
   mlflow_experiment_name: "Paper_Replication_GraphRAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/graphrag.py"
+  worker_script_path: "/srv/dmiranda/graphrag_chileantos/chileantos/src/pipelines/pepe.py"
   num_runs_per_experiment: 1 # Es determinista, con una corrida basta
 
   parameters:
@@ -53,27 +69,14 @@ graphrag_suite:
     graphrag_projects: 
       - "data/04_graphrag/chilean_graphrag_classify_illegal"
 
-# -------------------------------------------------------------
-# SUITE DE EXPERIMENTOS PARA RAG HÍBRIDO
-# -------------------------------------------------------------
-hybrid_rag_suite:
-  mlflow_experiment_name: "Paper_Replication_HybridRAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/hybrid_rag.py"
-  num_runs_per_experiment: 1
 
-  parameters:
-    tasks: ["illegal"]
-    ollama_rag_models: ["gemma3:1b"]
-    prompts: ["/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/prompts/rag_chilean.txt"]
-    retriever_top_k: [10]
-    ranker_top_k: [3]
 
 # -------------------------------------------------------------
 # SUITE DE EXPERIMENTOS PARA LightRAG
 # -------------------------------------------------------------
 lightrag_suite:
   mlflow_experiment_name: "Paper_Replication_LightRAG"
-  worker_script_path: "/home/daniel/PERSONAL/INVESTIGACION/CHILEAN_AC/src/pipelines/lightrag.py"
+  worker_script_path: "/srv/dmiranda/graphrag_chileantos/chileantos/src/pipelines/lightrag.py"
   num_runs_per_experiment: 1
 
   parameters:

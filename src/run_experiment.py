@@ -132,9 +132,10 @@ def main():
                             command.append(f"prompts.prompt={value}")
                     
                     elif key == 'embedding_models':
-                        command.append(f"db.naive.embedding_model={value}")
-                        short_name = str(value).split('/')[-1]
-                        command.append(f"db.naive.embed_model_name_short={short_name}")
+                        if suite_to_run == 'rag_suite':
+                            command.append(f"db.naive.embedding_model={value}")
+                        else:
+                            command.append(f"db.hybrid.embedding_model={value}")
                         
                     elif key == 'similarity_top_k':
                         command.append(f"strategy.naive_rag.top_k={value}")

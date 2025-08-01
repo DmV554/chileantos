@@ -1,7 +1,7 @@
 name: Classification - Illegal
 data_path: data/01_raw/Chilean_Abusive_ToS/classification/Illegal.jsonl
 options:
-  NA: La cláusula no es aplicable o es irrelevante para la clasificación.
+  NA: La cláusula no es aplicable o es irrelevante para la clasificación. Si una clausula es irrelevante, no debe tener más etiquetas.
   ILG LPC default: La cláusula infringe una norma general de la Ley de Protección al Consumidor (LPC).
   ILG LPC PRO: La cláusula prohíbe o limita la prórroga de la competencia territorial, violando la LPC.
   ILG LPC INT: La cláusula establece una desintermediación que perjudica al consumidor, violando la LPC.

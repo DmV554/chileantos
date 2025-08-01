@@ -1,12 +1,10 @@
 #chromaDB de momento
 naive:
-  embedding_model: "intfloat/multilingual-e5-large"
-  embed_model_name_short: "multilingual-e5-large"
+  embedding_model: "Qwen/Qwen3-Embedding-0.6B"
   storage_dir: "data/03_vector_stores/classify_{task_key}_{embed_short}"
 
 #Qdrant en primera instancia
 hybrid:
-  embedding_model: "intfloat/multilingual-e5-large" 
-  embed_model_name_short: "multilingual-e5-large"
+  embedding_model: "Qwen/Qwen3-Embedding-0.6B" 
   storage_dir: "data/03_vector_stores/classify_{task_key}_{embed_short}_hybrid"
   embedding_dim: 1024

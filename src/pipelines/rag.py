@@ -23,6 +23,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sklearn.metrics import f1_score
 
 from src.utils.data_loader import load_test_set
+from src.utils.parsing import get_model_short_name, parse_model_output, parse_model_output_with_reasoning
 from src.pipelines.common.base_worker import BaseExperimentWorker
 
 log = logging.getLogger(__name__)
@@ -37,11 +38,6 @@ def load_haystack_knowledge_base(storage_path: str, collection_name: str):
     log.info(f"Cargando KB de ChromaDB desde: {full_storage_path} con la colección '{collection_name}'")
     return ChromaDocumentStore(collection_name=collection_name, persist_path=full_storage_path)
 
-def parse_model_output(output: str):
-    try:
-        return ast.literal_eval(output.strip())
-    except (ValueError, SyntaxError):
-        return []
 
 def load_prompt_template(path: str):
     full_path = os.path.join(hydra.utils.get_original_cwd(), path)
@@ -69,10 +65,12 @@ class RAGWorker(BaseExperimentWorker):
         }
 
     def _execute_task(self) -> None:
+        embed_shor_name = get_model_short_name(str(self.db_cfg.embedding_model))
         storage_dir = self.db_cfg.storage_dir.format(
             task_key=self.task_name_key, 
-            embed_short=self.db_cfg.embed_model_name_short
+            embed_short=embed_shor_name
         )
+        
         document_store = load_haystack_knowledge_base(storage_dir, collection_name=self.task_name_key)
         test_ds = load_test_set(self.task_cfg)
         
@@ -111,10 +109,19 @@ class RAGWorker(BaseExperimentWorker):
                 "query_embedder": {"text": query_text},
                 "retriever": {"top_k": self.strategy_cfg.top_k},
                 "prompt_builder": {"query": query_text, "template_variables": {"options_descriptions": options_desc}},
-            })
+            }, )
             
             response_text = pipeline_output["llm"]["replies"][0]
-            detected_labels = parse_model_output(response_text)
+            
+            prompt_path = self.cfg.prompts.prompt
+            
+            if prompt_path=="/srv/dmiranda/graphrag_chileantos/chileantos/prompts/vanilla.txt":
+                detected_labels = parse_model_output(response_text)     
+                print(f"EL PEPE VANILLA -> {detected_labels}")
+            else:
+                detected_labels = parse_model_output_with_reasoning(response_text)
+                detected_labels = detected_labels["labels"]
+                print(f"EL PEPE REASONING -> {detected_labels}")
             
             true_labels.append(item['human_readable_labels'])
             pred_labels.append(detected_labels)
